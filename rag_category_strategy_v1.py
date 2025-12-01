@@ -9,8 +9,8 @@ from tqdm import tqdm
 # ==========================================
 # 1. CONFIGURATION
 # ==========================================
-NUM_SAMPLES_TO_TEST = 100
-OUTPUT_FILE = "medqa_adaptive_results.csv"
+NUM_SAMPLES_TO_TEST = 200
+OUTPUT_FILE = "medqa_optimized_results.csv"
 MODEL_ID = "Qwen/Qwen2.5-7B-Instruct"
 
 if not torch.cuda.is_available():
@@ -30,129 +30,191 @@ bnb_config = BitsAndBytesConfig(
 tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
 model = AutoModelForCausalLM.from_pretrained(MODEL_ID, quantization_config=bnb_config, device_map="auto")
 
-# We use a single pipeline for both Classification and Answering
-pipe = pipeline("text-generation", model=model, tokenizer=tokenizer, max_new_tokens=200, temperature=0.1)
+# Increased max_tokens to 512 to allow space for "Reasoning"
+pipe = pipeline("text-generation", model=model, tokenizer=tokenizer, max_new_tokens=512, temperature=0.1)
 
 # ==========================================
 # 3. THE ROUTER (CLASSIFIER)
 # ==========================================
 def classify_question(question):
-    """
-    Decides if the question is about Diagnosis, Treatment, or Mechanism.
-    """
     prompt = [
         {"role": "system", "content": "Classify the following medical question into one of these categories: 'Diagnosis', 'Treatment', or 'Mechanism'. Output ONLY the category name."},
         {"role": "user", "content": f"Question: {question}\n\nCategory:"}
     ]
     output = pipe(prompt, max_new_tokens=10)
-    category = output[0]['generated_text'].strip().lower()
+    # Extract the last message content
+    raw_text = output[0]['generated_text'][-1]['content']
+    category = raw_text.strip().lower()
     
     if "diagnosis" in category: return "Diagnosis"
     if "treatment" in category or "step" in category: return "Treatment"
-    return "Mechanism" # Default fallback
+    return "Mechanism" 
 
 # ==========================================
-# 4. ADAPTIVE RETRIEVAL STRATEGIES
+# 4. OPTIMIZED RETRIEVAL STRATEGIES
 # ==========================================
 def get_evidence_diagnosis(options):
-    """Strategy: Fetch symptoms of the diseases in the options."""
+    """
+    Strategy: Diagnosis questions usually match Symptoms -> Disease.
+    We try to fetch the 'Signs and symptoms' section of the disease pages.
+    """
     evidence = []
     for opt in options.values():
         try:
-            # Search for the disease page
             page = wikipedia.page(opt)
-            # We specifically want the 'Signs and symptoms' section if possible
-            content = page.content[:500] # Fallback to summary
-            evidence.append(f"Disease: {opt}\nInfo: {content}")
+            # Try to get specific symptom section, fallback to summary
+            content = page.section("Signs and symptoms")
+            if not content:
+                content = page.summary
+            
+            # Limit length to avoid context overflow
+            evidence.append(f"Disease: {opt}\nSymptoms/Info: {content[:400]}")
         except:
             continue
     return "\n\n".join(evidence)
 
 def get_evidence_treatment(question, options):
     """
-    Strategy: Identify the condition from the question, then search for its treatment.
+    Strategy: Treatment questions match Condition -> Drug/Therapy.
+    We search for the 'Medical uses' or 'Treatment' sections of the option pages.
     """
-    # 1. Extract the likely condition from the vignette (using LLM would be best, but we use simple heuristic here)
-    # For a lab, we will search the Question keywords + "treatment"
-    # A real production system would use the LLM to extract the "Probable Diagnosis" first.
-    
-    # Simple approach: Search for the drugs/procedures in options to see what they treat
     evidence = []
     for opt in options.values():
         try:
-            summary = wikipedia.summary(opt, sentences=3)
-            evidence.append(f"Intervention: {opt}\nUsed for: {summary}")
+            page = wikipedia.page(opt)
+            # Try to find treatment-related sections
+            content = page.section("Medical uses")
+            if not content:
+                content = page.section("Treatment")
+            if not content:
+                content = page.summary
+                
+            evidence.append(f"Intervention: {opt}\nIndication/Usage: {content[:400]}")
         except:
             continue
     return "\n\n".join(evidence)
 
 def get_evidence_mechanism(options):
-    """Strategy: Search for the specific fact/mechanism."""
+    """
+    Strategy: Mechanism questions are often about 'Pharmacology' or 'Mechanism of action'.
+    """
     evidence = []
     for opt in options.values():
         try:
-            summary = wikipedia.summary(opt, sentences=3)
-            evidence.append(f"Fact about {opt}: {summary}")
+            page = wikipedia.page(opt)
+            content = page.section("Mechanism of action")
+            if not content:
+                content = page.summary
+            evidence.append(f"Fact about {opt}: {content[:400]}")
         except:
             continue
     return "\n\n".join(evidence)
 
 # ==========================================
-# 5. MAIN PIPELINE
+# 5. OPTIMIZED SOLVER (Chain of Thought)
+# ==========================================
+def solve_question_cot(question, options, evidence, category):
+    options_fmt = "\n".join([f"{k}: {v}" for k, v in options.items()])
+    
+    # Dynamic System Role
+    role_map = {
+        "Diagnosis": "You are a Diagnostic Expert. Differential diagnosis is key.",
+        "Treatment": "You are a Clinical Pharmacologist. Focus on first-line therapies.",
+        "Mechanism": "You are a Biomedical Scientist. Focus on molecular pathways."
+    }
+    sys_role = role_map.get(category, "You are a Medical Expert.")
+
+    # Chain-of-Thought Prompt
+    messages = [
+        {"role": "system", "content": f"{sys_role} Answer the USMLE question. Use the provided Context."},
+        {"role": "user", "content": f"""
+Context from Medical Library:
+{evidence}
+
+Question:
+{question}
+
+Options:
+{options_fmt}
+
+Instructions:
+1. Analyze the patient's symptoms/history.
+2. Evaluate each option against the context.
+3. Eliminate incorrect options step-by-step.
+4. State the final answer clearly at the end.
+
+Format your response exactly like this:
+Reasoning: [Your step-by-step logic]
+Answer: [Option Letter]"""}
+    ]
+    
+    # Generate
+    output = pipe(messages)
+    return output[0]['generated_text'][-1]['content']
+
+def parse_final_answer(text):
+    """
+    Robust parser for Chain-of-Thought output.
+    Looks for 'Answer: X' at the end of the text.
+    """
+    # Look for "Answer: A" pattern specifically
+    match = re.search(r"Answer:\s*([A-D])", text, re.IGNORECASE)
+    if match:
+        return match.group(1).upper()
+    
+    # Fallback: Look for just the letter if it appears at the very end
+    match = re.search(r"\b([A-D])\s*$", text)
+    if match:
+        return match.group(1).upper()
+        
+    return "Unknown"
+
+# ==========================================
+# 6. MAIN PIPELINE EXECUTION
 # ==========================================
 print("Loading Dataset...")
 dataset = load_dataset("GBaker/MedQA-USMLE-4-options", split="test")
 subset = dataset.select(range(NUM_SAMPLES_TO_TEST))
 
 results = []
-print(f"\n🚀 Starting Adaptive Evaluation...")
+print(f"\n🚀 Starting Optimized Evaluation...")
 
 for i, sample in tqdm(enumerate(subset), total=NUM_SAMPLES_TO_TEST):
     question = sample['question']
     options = sample['options']
     correct_key = sample['answer_idx']
     
-    # --- STEP 1: ROUTING ---
+    # 1. ROUTE
     category = classify_question(question)
     
-    # --- STEP 2: ADAPTIVE RETRIEVAL ---
+    # 2. RETRIEVE
     if category == "Diagnosis":
         context = get_evidence_diagnosis(options)
-        sys_prompt = "You are a Diagnostician. Match the patient's symptoms to the correct disease."
     elif category == "Treatment":
         context = get_evidence_treatment(question, options)
-        sys_prompt = "You are a Clinical Pharmacologist. Choose the appropriate management or drug."
     else:
         context = get_evidence_mechanism(options)
-        sys_prompt = "You are a Biomedical Scientist. Explain the underlying mechanism or fact."
         
-    if not context: context = "No Wikipedia evidence found."
+    if not context: context = "No specific Wikipedia evidence found."
 
-    # --- STEP 3: GENERATION ---
-    options_fmt = "\n".join([f"{k}: {v}" for k, v in options.items()])
+    # 3. SOLVE (CoT)
+    raw_response = solve_question_cot(question, options, context, category)
     
-    messages = [
-        {"role": "system", "content": sys_prompt + " Output ONLY the correct option letter (A, B, C, or D)."},
-        {"role": "user", "content": f"Context:\n{context}\n\nQuestion:\n{question}\n\nOptions:\n{options_fmt}\n\nAnswer:"}
-    ]
-    
-    output = pipe(messages)
-    raw_response = output[0]['generated_text']
-    
-    # Parse
-    match = re.search(r'\b([A-D])\b', raw_response)
-    pred = match.group(1) if match else "Unknown"
+    # 4. PARSE
+    pred = parse_final_answer(raw_response)
+    is_correct = (pred == correct_key)
     
     results.append({
         "id": i,
-        "category": category, # <-- Save the category to analyze which one we are best at!
-        "is_correct": pred == correct_key,
+        "category": category,
+        "is_correct": is_correct,
         "prediction": pred,
-        "evidence_length": len(context)
+        "correct_answer": correct_key,
+        "reasoning": raw_response[:500] + "..." # Save reasoning for review
     })
 
 # ==========================================
-# 6. ANALYSIS
+# 7. ANALYSIS
 # ==========================================
 df = pd.DataFrame(results)
 print("\n=== RESULTS BY CATEGORY ===")
