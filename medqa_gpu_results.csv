@@ -1,0 +1,308 @@
+id,question,correct_answer,model_prediction,is_correct,raw_response,evidence
+0,A junior orthopaedic surgery resident is completin...,B,A,False,"A
+
+Explanation: According to best medical practices, the resident should disclose the error to the patient and include it in the operative report. This ensures transparency and proper documentation of the event, which is crucial for patient care and legal reasons.",Fact about Disclose the error to the patient and put it in the operative report: The terms medical r...
+1,A 67-year-old man with transitional cell carcinoma...,D,A,False,"A
+
+Explanation: The patient experienced sensorineural hearing loss after receiving neoadjuvant chemotherapy, which suggests the involvement of a drug that inhibits proteasomes. Proteasome inhibitors, such as bortezomib, have been associated with ototoxicity, leading to sensorineural hearing loss. This aligns with the context provided about proteasome inhibition and its potential side effects on hearing.",Fact about Inhibition of proteasome: Proteasome inhibitors (INN stem –zomib) are drugs that block th...
+2,Two weeks after undergoing an emergency cardiac ca...,B,B,True,"B
+
+The patient's presentation includes decreased urinary output, mottled discoloration of the feet (livedo reticularis), elevated leukocyte count with a predominance of neutrophils, and intravascular spindle-shaped vacuoles seen on renal biopsy. These findings are consistent with cholesterol embolization syndrome, where cholesterol crystals from atherosclerotic plaques can travel through the bloodstream and lodge in small vessels, leading to ischemia and tissue damage, particularly in the skin",Fact about Renal papillary necrosis: Renal papillary necrosis is a form of nephropathy involving the...
+3,A 39-year-old woman is brought to the emergency de...,D,C,False,"C
+
+Explanation: The patient's symptoms and laboratory findings suggest a severe infection, possibly sepsis, with signs of disseminated intravascular coagulation (DIC). The presence of a phosphorylated N-acetylglucosamine dimer with 6 fatty acids attached to a polysaccharide side chain suggests the identification of a bacterial endotoxin, which is characteristic of gram-negative bacteria. Given the context of the question, the most likely organism to be cultured from this patient would","Fact about Spore-forming, gram-positive bacilli forming yellow colonies on casein agar: An agar plat..."
+4,A 35-year-old man comes to the physician because o...,B,B,True,"B
+
+Explanation: The patient's symptoms of itchy, watery eyes, sneezing, and a history of similar episodes around springtime suggest allergic conjunctivitis. The most appropriate treatment would be an antihistamine or mast cell stabilizer, which is provided by Ketotifen eye drops. Erythromycin ointment is an antibiotic and would not be effective for allergic conjunctivitis. Warm compresses are used for conditions like blepharitis or me",Fact about Erythromycin ointment: Erythromycin (sometimes abbreviated ETM in reports) is an antibiot...
+5,A 39-year-old man presents to the emergency depart...,D,B,False,"B
+
+Explanation: Given the patient's presentation of chest pain radiating to the epigastric area, diaphoresis, and marked distress, along with a history of hypertension and substance abuse, the most appropriate initial step in management would be to use a beta-blocker like Labetalol to control the heart rate and reduce myocardial oxygen demand. Labetalol is a non-selective alpha and beta-adrenergic receptor blocker, making it suitable for this scenario where both","Fact about Diltiazem: Diltiazem, sold under the brand name Cardizem among others, is a nondihydropyr..."
+6,A 68-year-old male comes to the physician for eval...,C,A,False,"A
+
+The patient's symptoms of right flank pain, hypertension, and imaging findings of dilation of the right ureter and renal pelvis are consistent with renovascular hypertension due to renal artery stenosis. This condition can lead to decreased blood flow to the kidney and subsequent renal damage, causing hydronephrosis (dilation of the ureter and renal pelvis). The patient's history of diabetes and peripheral artery disease also supports atherosclerotic involvement.",Fact about Renal artery stenosis: Renal artery stenosis (RAS) is the narrowing of one or both of the...
+7,A 65-year-old man is brought to the emergency depa...,C,C,True,"C
+
+Explanation: Given the patient's history of acute coronary syndrome, undergoing percutaneous transluminal coronary angioplasty, and the need to reduce the risk of future cardiovascular events, clopidogrel (Plavix) should be added to the medication regimen. This aligns with the use of dual antiplatelet therapy in patients who have undergone PCI.","Fact about Nifedipine: Nifedipine ( nə-FEH-də-peen), sold under the brand name Procardia among other..."
+8,A 37-year-old-woman presents to her primary care p...,B,A,False,"A
+
+Explanation: A history of stroke or venous thromboembolism makes copper IUD placement contraindicated due to the increased risk of thrombotic events associated with hormonal contraceptives in patients with these conditions.",Fact about A history of stroke or venous thromboembolism: Venous thrombosis is the blockage of a vei...
+9,A 23-year-old woman comes to the physician because...,A,C,False,"C
+
+Explanation: The context provided describes dental fluorosis, which is characterized by hypocalcification of tooth enamel leading to intrinsic tooth discoloration and physical damage to the teeth. Given that the patient is embarrassed about the appearance of her nails and considering the description of dental fluorosis, it is most likely that she would also have erosions of the dental enamel, making option C the correct choice. Options A, B, and D do not relate to the described condition of dental fluorosis.","Fact about Erosions of the dental enamel: Dental fluorosis is a common disorder, characterized by hy..."
+10,A 24-year-old G2P1 woman at 39 weeks’ gestation pr...,D,D,True,"D
+
+The confirmatory test for HIV typically involves detecting antibodies against HIV. An HIV-1/HIV2 antibody differentiation immunoassay is used to identify and differentiate between HIV-1 and HIV-2 antibodies in the serum, which is a common confirmatory test for HIV. The other options refer to techniques used in molecular biology for DNA and RNA analysis, which are not relevant to the confirmatory testing for HIV antibodies.","Fact about It is a Southwestern blot, identifying the presence of DNA-binding proteins: Southern blo..."
+11,A 72-year-old man comes to the physician because o...,D,D,True,"D
+
+The patient's presentation suggests myelofibrosis given the splenomegaly, anemia, thrombocytopenia, and bone marrow fibrosis. The JAK2 assay being positive further supports the diagnosis of myelofibrosis, which is a type of myeloproliferative neoplasm. Ruxolitinib is specifically indicated for the treatment of intermediate or high-risk myelofibrosis, making it the most appropriate next step in management","Fact about Cladribine: Cladribine, sold under the brand name Leustatin, among others, is a medicatio..."
+12,A 20-year-old man comes to the physician because o...,B,C,False,"C
+
+The patient's symptoms of gait unsteadiness, bilateral hearing loss, and intermittent tingling sensations, along with the genetic mutation of a tumor suppressor gene on chromosome 22 that encodes merlin, suggest Neurofibromatosis type 2 (NF2). NF2 is associated with an increased risk of developing meningiomas and astrocytomas, but the classic presentation often includes bilateral vestibular schwannomas (acoustic neuromas), which can present with",Fact about Renal cell carcinoma: Renal cell carcinoma (RCC) is a kidney cancer that originates in th...
+13,A 47-year-old executive schedules an appointment h...,D,A,False,"A
+
+Explanation: When a patient stands from a supine position, there is a redistribution of blood towards the lower extremities due to gravity. This leads to an increase in right atrial pressure as more blood accumulates in the right side of the heart. The mid-systolic murmur heard in the 2nd left intercostal space that radiates to the carotids could indicate a tricuspid regurgitation, which is consistent with increased right-sided pressures. Options B,",Fact about An increase in right atrial pressure: Right atrial pressure (RAP) is the blood pressure i...
+14,A microbiologist is studying the emergence of a vi...,C,D,False,"D
+
+The process described involves the co-infection of a host cell by two viruses from the same family, leading to the mixing of their genetic material within the host cell before packaging into a new virus particle. This kind of recombination is characteristic of poxviruses, such as the Vaccinia virus, which belongs to the poxvirus family. The other viruses listed (Epstein-Barr virus, Human Immunodeficiency Virus, and Rotavirus) do not typically undergo this type of","Fact about Epstein-Barr virus: The Epstein–Barr virus (EBV), also known as human herpesvirus 4 (HHV-..."
+15,A 59-year-old overweight woman presents to the urg...,B,B,True,"B
+
+Explanation: Given the patient's history of recurrent abdominal pain due to cholelithiasis, the presence of a calcified mass near the gallbladder on CT scan, and the symptoms of severe abdominal pain, dull back pain, nausea, and vomiting, gallbladder cancer (Option B) should be excluded first because the other conditions (acute cholecystitis, choledocholithiasis, and pancreatitis) are more likely to present with acute, painful symptoms that",Fact about Acute cholecystitis: Cholecystitis is inflammation of the gallbladder. Symptoms include r...
+16,A 7-year-old boy is brought to his pediatrician’s ...,D,D,True,"D
+
+Explanation: The context describes an experimental therapy that targets a mediator favoring class switching of antibodies, reducing the exaggerated immune response in asthma. Interleukin-4 (IL-4) is known to promote the class switching to IgE, which is associated with allergic responses and asthma. Therefore, targeting IL-4 would align with the description of reducing the exaggerated response observed during asthmatic attacks.",No specific external evidence found....
+17,A 3-month-old boy is brought the emergency departm...,D,D,True,"D
+
+Matching was used to control for confounding bias in the study by ensuring that both the BRUE group and the control group were similar in terms of age, socioeconomic background, and family history of medical illness.","Fact about Blinding: Landing is the last part of a flight, where a flying animal, aircraft, or space..."
+18,A 29-year-old man presents to the emergency depart...,B,C,False,"C
+
+The patient's symptoms of sharp, severe, and positional chest pain (worsening when lying down and improving when leaning forward) along with a pericardial friction rub (scratchy sound heard over the left sternal border at end-expiration) are highly suggestive of acute pericarditis. Indomethacin is often used to treat pericarditis as it can help reduce inflammation and alleviate symptoms. Pericardiocentesis would be considered if there were evidence of","Fact about Indomethacin +/- omeprazole: Indometacin, also known as indomethacin, is a nonsteroidal a..."
+19,A 46-year-old man is brought to the emergency depa...,D,B,False,"B
+
+Explanation: The patient presents with altered mental status, somnolence, slurred speech, ataxia, and diminished deep tendon reflexes, all of which are consistent with ethanol intoxication. The presence of an alcoholic smell and the history of being found in front of his apartment further support this diagnosis. While the blood alcohol concentration is below the level typically associated with severe intoxication, the clinical presentation is most consistent with ethanol intoxication.","Fact about Hypoglycemia: Hypoglycemia (American English), also spelled hypoglycaemia or hypoglycæmia..."
+20,A 77-year-old woman presents to the emergency room...,C,D,False,"D
+
+The patient's history of previous breast cancer, along with the presence of a palpable mass and enlarged axillary lymph nodes, suggests a possible recurrence or metastasis of breast cancer. The fine-needle aspiration findings of centroblastic and immunoblastic cells, which are often seen in certain types of non-Hodgkin’s lymphoma (NHL), could be related to the primary breast cancer site or indicate a secondary involvement due to metastasis. While travel to Africa and axillary","Fact about Travel to Africa: Akwaaba African Travel Market (AFTM) is an international travel, touris..."
+21,A 3-month-old infant is brought to her pediatricia...,A,A,True,"A
+
+Explanation: The patient's symptoms, including difficulty breathing while feeding, low energy, and a high-pitched holosystolic murmur, are consistent with congenital heart problems, which are common in DiGeorge syndrome (22q11 deletion). The other options are not directly related to the described symptoms.","Fact about 22q11 deletion: DiGeorge syndrome, also known as 22q11.2 deletion syndrome, is a genetic ..."
+22,A 30-year-old African American woman comes to the ...,C,C,True,"C
+
+The patient's symptoms, including a dry cough, chest discomfort, fever, chills, headaches, muscle aches, and joint pain, along with a history of recent outdoor activity in a region where the fungus is common (Mississippi), and the presence of a dimorphic fungus with septate hyphae on bronchoalveolar lavage using silver/PAS staining, are highly suggestive of histoplasmosis caused by Histoplasma capsulatum.","Fact about Legionella pneumophila infection: Legionella pneumophila, the primary causative agent for..."
+23,A 62-year-old patient has been hospitalized for a ...,D,A,False,"A
+
+Explanation: The clinical presentation of the patient, including the sudden onset of fever, purulent cough, chest crackles, consolidation on chest radiography, and elevated neutrophil count with left shift (indicating acute infection), strongly suggests pneumococcal pneumonia caused by Streptococcus pneumoniae. This aligns with the typical presentation of Streptococcus pneumoniae infection, which is common in immunocompromised or elderly patients.","Fact about Streptococcus pneumoniae: Streptococcus pneumoniae, or pneumococcus, is a Gram-positive, ..."
+24,A 6-year-old boy is brought to the emergency depar...,A,D,False,"D
+
+Explanation: The patient's condition has improved significantly after initial treatment with nebulized albuterol, ipratropium, and intravenous methylprednisolone, as evidenced by the resolution of wheezing and improvement in respiratory status. Given the patient's response to treatment and the absence of signs of tension pneumothorax (no new asymmetry in chest movement, no tracheal deviation, no subcutaneous emphysema), performing a bronchoscopy is",Fact about Perform bronchoscopy: Bronchoscopy is an endoscopic technique of visualizing the inside o...
+25,A 5-year-old female suffers from recurrent infecti...,D,C,False,"C
+
+Explanation: The nitroblue tetrazolium (NBT) test assesses the function of myeloperoxidase in neutrophils. If neutrophils fail this test, it indicates a defect in myeloperoxidase activity, which is crucial for producing hypochlorous acid and other antimicrobial agents. Given the recurrent infections by opportunistic pathogens like Aspergillus, Pseudomonas, and Staphylococcus aureus, along with","Fact about Immunoglobulin class switching: Immunoglobulin class switching, also known as isotype swi..."
+26,A 3-year-old boy presents to the emergency departm...,D,D,True,"D
+
+Explanation: The clinical presentation described (barking cough, hoarse voice, inspiratory stridor, and high-pitched inspiratory noise) is consistent with croup, which is diagnosed using the steeple sign on a frontal neck radiograph. The other options (thumbprint sign for epiglottitis, increased interstitial markings for interstitial lung disease, and lobar consolidation for pneumonia) do not match the given clinical scenario.","Fact about Thumbprint sign on the lateral image: In radiology, the thumbprint sign, or thumbprinting..."
+27,A 26-year-old woman presents to a gynecologist aft...,A,A,True,"A: Induction of CYP3A4 by rifampin leading to decreased serum levels of ethinylestradiol and progesterone
+
+Explanation: Rifampin, an antibiotic commonly used in TB treatment, is known to induce the cytochrome P450 enzyme CYP3A4. This induction leads to increased metabolism of ethinylestradiol (a component of many oral contraceptives), resulting in decreased serum levels and reduced efficacy of the contraceptive.",No specific external evidence found....
+28,A 4-year-old previously healthy boy presents with ...,D,D,True,"D
+
+The patient's presentation suggests a neurological involvement, specifically lower extremity weakness and tingling, along with a history of gastrointestinal symptoms. These findings are more consistent with a condition such as acute bacterial meningitis or other central nervous system infections, where there might be an increase in cerebrospinal fluid (CSF) protein levels without a significant increase in cell count. This aligns with option D: Increased cerebrospinal fluid protein with normal cell count. The other options (Gram stain","Fact about Gram stain positive CSF: Cerebrospinal fluid (CSF) is a clear, colorless transcellular bo..."
+29,A 3-week-old male newborn is brought to the physic...,C,C,True,"C
+
+Reassurance is the most appropriate next step in the management of this patient. The description indicates that the infant has a congenital condition causing in-toeing, specifically metatarsus adductus, which is a common condition in newborns. The physical exam findings, including the concavity of the medial border of the foot and the skin crease just below the ball of the great toe, along with the X-ray showing an increased angle between the 1st and 2nd met","Fact about Tarsometatarsal capsulotomy: Pigeon toe, also known as in-toeing, is a condition which ca..."
+30,A 42-year-old woman comes to the emergency departm...,D,B,False,"B
+
+Explanation: The patient presents with right upper abdominal pain, fever, and tenderness, which are consistent with cholangitis or choledocholithiasis. The presence of a fistula between the gallbladder and small intestine can lead to bacterial contamination of the bile, causing cholangitis. This condition can present with similar symptoms and laboratory findings, including elevated white blood cell count and liver enzymes. While other options like hepatotropic viral infection or obstruction of the cystic duct could also","Fact about Fistula between the gallbladder and small intestine: In anatomy, a fistula (pl.: fistulas..."
+31,A 72-year-old woman is admitted to the intensive c...,C,A,False,"A
+
+Explanation: The patient's symptoms of shortness of breath and palpitations, along with the abnormal pressure-volume loop indicating mitral valve insufficiency (leaking of blood back into the left atrium during ventricular contraction), suggest mitral valve regurgitation (MR). This condition directly affects the function of the mitral valve, leading to the described hemodynamic changes and symptoms.","Fact about Mitral valve regurgitation: Mitral regurgitation (MR), also known as mitral insufficiency..."
+32,A 22-year-old woman is brought to the emergency de...,D,B,False,"B
+
+Explanation: The patient's presentation suggests a diagnosis of disseminated intravascular coagulation (DIC) secondary to sepsis from a coagulase-negative staphylococcal infection, given the history of recent hospitalization for bacterial meningitis, fever, petechiae, and thrombocytopenia. Trimethoprim/sulfamethoxazole is effective against many gram-positive and gram-negative bacteria, including coagulase-negative staphyloc",Fact about Doxycycline: Doxycycline is a broad-spectrum antibiotic of the tetracycline class used in...
+33,An otherwise healthy 50-year-old man comes to the ...,B,A,False,"A
+
+Explanation: The patient's symptoms of upper abdominal pain, nausea, vomiting, diarrhea, and weight loss, along with the findings of parietal cell atrophy on biopsy, suggest Zollinger-Ellison syndrome, which is caused by excessive gastrin secretion from a gastrin-secreting tumor, typically a gastrinoma. However, the context provided mentions serotonin-secreting gastric tumors (carcinoids), which can also cause symptoms like flushing, diarrhea, and other signs of",Fact about Serotonin-secreting gastric tumor: A carcinoid (also carcinoid tumor) is a slow-growing t...
+34,A 27-year-old man presents to the emergency depart...,A,B,False,"B
+
+Explanation: The patient initially presented with hyperglycemia (glucose level of 589 mg/dL) and hyperkalemia (potassium level of 6.3 mEq/L). These findings suggest diabetic ketoacidosis (DKA) and hyperkalemia. The treatment for DKA includes insulin to lower blood glucose levels and IV fluids to correct dehydration and electrolyte imbalances. The subsequent lab results show a significant decrease in both glucose and potassium levels,","Fact about Insulin, potassium, IV fluids, and glucose: Insulin ( ; from Latin  insula 'island') is a..."
+35,A 67-year-old man who was diagnosed with arthritis...,A,A,True,"A
+
+Explanation: The patient's history of arthritis for 16 years, along with right and left knee swelling and pain, difficulty walking, back pain, and dandruff (indicative of psoriasis), along with pitting of the nails, strongly suggests psoriatic arthritis.",Fact about Psoriatic arthritis: Psoriatic arthritis (PsA) is a long-term inflammatory arthritis that...
+36,A 65-year-old woman schedules an appointment with ...,D,C,False,"C
+
+Explanation: The patient's symptoms of weight loss, weakness that improves after brief exercise, and bladder incontinence are more consistent with myasthenia gravis, a neuromuscular junction disorder characterized by fluctuating muscle weakness. The improvement in symptoms after brief exercise is a key feature of myasthenia gravis. The other conditions listed do not typically present with these specific symptoms.",Fact about Duchenne muscular dystrophy: Duchenne muscular dystrophy (DMD) is a severe type of muscul...
+37,A 3-month-old boy presents to his pediatrician wit...,A,D,False,"D
+
+The context provided indicates that the patient has selective immunoglobulin A (IgA) deficiency (SIgAD), which specifically affects the production of IgA while other immunoglobulin types remain normal. The symptoms presented—persistent diarrhea, oral candidiasis, and RSV pneumonia—are consistent with SIgAD, as they involve mucosal surfaces where IgA plays a crucial role in protecting against infections. The patient's low weight and the presence of oral candidiasis further support this",Fact about Selective IgA deficiency: Selective immunoglobulin A (IgA) deficiency (SIgAD) is a kind o...
+38,A 53-year-old man with recurrent pancreatic adenoc...,D,C,False,"C
+
+The therapeutic index is often defined as the ratio of the effective dose (ED) to the toxic dose (TD). In this case, we can approximate it using the dose at which 50% of patients show improvement (ED50) and the dose at which 50% of patients experience a treatment-related adverse event (TD50).
+
+From the data provided:
+- 30 mg dose shows improvement in 26/53 patients, suggesting an ED50",Fact about 2.5: Twilight of the Innocents is the fifth studio album by Northern Irish rock band Ash....
+39,A 67-year-old male is seen by neurology after he w...,A,A,True,"A
+
+Explanation: The patient's inability to complete tasks involving verbal repetition suggests a disruption in the arcuate fasciculus, which is crucial for connecting Broca's area and Wernicke's area, facilitating verbal repetition. While damage to the superior temporal gyrus or inferior frontal gyrus could affect other aspects of language, the specific deficit in verbal repetition points to the arcuate fasciculus as the most likely affected structure.","Fact about Arcuate fasciculus: In neuroanatomy, the arcuate fasciculus (AF; from Latin 'curved bundl..."
+40,A 27-year-old woman presents to the office with co...,C,C,True,"C
+
+The patient's presentation includes severe inflammatory acne, dark coarse hairs on the back, and a family history of type 2 diabetes, which are all consistent with Polycystic Ovarian Syndrome (PCOS). Additionally, the irregular menstrual cycle (every 45 days) further supports this diagnosis. While hirsutism can be seen in hypothyroidism, the combination of acne and obesity (BMI of 31.2) is more indicative of PCOS.",Fact about Hypothyroidism: Hypothyroidism is an endocrine disease in which the thyroid gland does no...
+41,А 43-уеаr-old mаn рrеѕеntѕ wіth tіnglіng аnd numbn...,C,C,True,"C
+
+Strict blood glucose control is the best measure to prevent the progression of the symptoms present in this patient. Given the patient's history of poorly controlled type 2 diabetes mellitus, elevated HbA1c, and signs of peripheral neuropathy and poor circulation (as indicated by the ABPI), strict glycemic control is crucial to prevent further complications such as worsening neuropathy and ischemia.","Fact about Use of atorvastatin: Atorvastatin, sold under the brand name Lipitor among others, is a s..."
+42,A one-day-old male is evaluated in the hospital nu...,A,A,True,"A
+
+Explanation: The patient presents with bilious vomiting, which suggests obstruction higher up in the gastrointestinal tract, such as the duodenum. Additionally, the patient has not passed meconium, indicating a blockage preventing its passage. These symptoms are consistent with duodenal atresia, where there is a complete closure of the duodenum, leading to obstruction and bilious vomiting. The other conditions (meconium ileus, necrotizing enterocolitis, and pyloric",Fact about Duodenal atresia: Duodenal atresia is the congenital absence or complete closure of a por...
+43,A healthy 23-year-old male is undergoing an exerci...,B,A,False,"A
+
+Explanation: The inferior vena cava carries deoxygenated blood from the lower and middle body into the right atrium of the heart. Since it receives blood from parts of the body with varying levels of oxygen consumption, its blood will generally have a lower oxygen content compared to the other options, especially after exercise when oxygen consumption increases. The coronary sinus and pulmonary veins receive deoxygenated and oxygenated blood respectively, making them less likely to have consistently low oxygen content across all conditions",Fact about Inferior vena cava: The inferior vena cava is a large vein that carries the deoxygenated ...
+44,A 45-year-old G5P4105 presents to her gynecologist...,A,D,False,"D
+
+Explanation: The patient's symptoms, including heavy and irregular menstrual bleeding, dysmenorrhea, and pelvic heaviness, suggest an adnexal mass rather than a uterine abnormality. While an adnexal mass may not always cause a remarkable physical exam finding, the other options (a globular uterus, an irregular uterus, or no remarkable findings) do not align with the clinical presentation described. Given the patient's symptoms and the context provided about adnexal masses, an",Fact about Adnexal mass: An adnexal mass is a lump in the tissue of the adnexa of the uterus (struct...
+45,A man is brought into the emergency department by ...,D,D,True,"D
+
+Explanation: The patient's symptoms (erratic behavior, confusion, slurred speech, ataxia, and metabolic acidosis) along with his history of alcohol intoxication and recent homelessness suggest a diagnosis of methanol poisoning. Methanol is metabolized to formic acid, leading to metabolic acidosis. Fomepizole inhibits alcohol dehydrogenase, thereby blocking the metabolism of methanol to formic acid. Therefore, administering fomepizole is the appropriate next","Fact about Naltrexone: Naltrexone, sold under the brand name Revia among others, is a medication pri..."
+46,A medical research study is evaluating an investig...,C,A,False,"A
+
+Explanation: The number needed to treat (NNT) is calculated as the inverse of the absolute risk reduction (ARR). First, calculate the event rate for each group:
+- Medication 1: 134/1500 = 0.0893 or 8.93%
+- Medication 2: 210/1500 = 0.14 or 14%
+
+Next, find the absolute risk reduction (","Fact about 5: 5 (five) is a number, numeral and digit. It is the natural number, and cardinal number..."
+47,A 55-year-old man comes to the physician because o...,A,A,True,"A
+
+The patient's symptoms of tingling pain in the sole of his right foot when raising it above chest level during exercise, calf cramps on the treadmill, and absence of pedal pulses on the right side are consistent with femoropopliteal artery stenosis. The presence of risk factors such as diabetes, smoking, and hypertension further support this diagnosis. The other conditions do not match the clinical presentation as closely.","Fact about Femoropopliteal artery stenosis: Popliteal bypass surgery, more commonly known as femorop..."
+48,A 29-year-old primigravid woman at 35 weeks' gesta...,B,B,True,"B
+
+Explanation: Given the scenario where a stillbirth occurs with no signs of life, no visible malformations, and no apparent cause from physical examination and ultrasound, a thorough investigation is warranted. Since the death remains unexplained, performing an autopsy is the most appropriate next step to determine the cause of death, especially in cases of sudden and unexpected infant deaths.","Fact about Recommend autopsy of the infant: Sudden infant death syndrome (SIDS), sometimes known as ..."
+49,A 67-year-old man is hospitalized after several da...,C,D,False,"D
+
+Explanation: The regeneration of alveolar lining after damage involves the proliferation of club cells, which are stem cells that can differentiate into various types of cells needed for repair, including type I and type II alveolar epithelial cells.","Fact about Excess mucus production by goblet cells: Mucus (, MEW-kəs) is a slippery aqueous secretio..."
+50,A 65-year-old male is treated for anal carcinoma w...,D,D,True,"D
+
+Radiation therapy primarily induces breaks in double-stranded DNA, which leads to cell death in cancer cells. This mechanism of action is distinct from the other options provided, which involve chemical modifications or structural changes not directly caused by radiation.","Fact about Induces the formation of disulfide bonds: In chemistry, a disulfide (or disulphide in Bri..."
+51,A 56-year-old man with a history of hypertension p...,A,A,True,"A
+
+The patient's presentation of progressive fatigue, muscle cramps, and hypertension along with hypokalemia (low potassium) and metabolic alkalosis (high bicarbonate) suggests an underlying condition of aldosterone excess, such as primary hyperaldosteronism (Conn's syndrome). This condition leads to increased sodium retention and potassium loss, resulting in hypertension and electrolyte imbalances consistent with the lab results provided.",Fact about Aldosterone excess: Aldosterone is the main mineralocorticoid steroid hormone produced by...
+52,A 65-year-old man comes to the physician because o...,D,D,True,"D
+
+The patient's symptoms of jaundice, skin and scleral icterus, along with elevated bilirubin in the urine and low urobilinogen suggest a problem with bilirubin metabolism or excretion. The low urobilinogen level is particularly indicative of a defect in hepatic bile excretion, as urobilinogen is formed from bilirubin in the intestines and then excreted in the urine. This pattern is consistent",Fact about Absent UDP-glucuronosyltransferase activity: Uridine 5'-diphospho-glucuronosyltransferase...
+53,A 72-year-old woman is brought to the physician by...,C,B,False,"B
+
+Explanation: The patient's symptoms of vomiting, mild crampy abdominal pain, and watery, nonbloody diarrhea suggest cholinergic overactivity, likely due to the cholinesterase inhibitor galantamine. Bethanechol, being a muscarinic agonist, would exacerbate these symptoms. Metoclopramide, while not directly related to cholinergic effects, can be used to manage gastrointestinal symptoms. Atropine and oxybutynin are antich",Fact about Bethanechol: Bethanechol is a parasympathomimetic choline carbamate that selectively stim...
+54,A 61-year-old man with schizophrenia in a locked i...,A,A,True,"A
+
+Explanation: The patient's symptoms of lip smacking, pursing of the mouth, and excessive blinking are consistent with tardive dyskinesia, which is an iatrogenic movement disorder often associated with long-term use of antipsychotic medications like haloperidol.",Fact about Tardive dyskinesia: Tardive dyskinesia (TD) is an iatrogenic disorder that results in inv...
+55,A 17-year-old football player with no significant ...,A,B,False,"B
+
+Explanation: Nikolsky's sign is used to diagnose pemphigus vulgaris, a blistering skin condition where gentle rubbing of the skin causes it to separate from the underlying layers, resulting in blisters and peeling. Given the patient's presentation of an erythematous, well-demarcated patch with peripheral scale in the groin area without scrotal involvement, which is consistent with pemphigus vulgaris, Nikolsky's sign would be the appropriate test to","Fact about Nikolsky's sign on physical exam: Nikolsky's sign is a clinical dermatological sign, name..."
+56,An otherwise healthy 26-year-old man comes to the ...,C,C,True,"C
+
+Risperidone, an antipsychotic medication, is known to cause gynecomastia as an adverse effect due to its impact on hormonal balance.","Fact about Agranulocytosis: Agranulocytosis, also known as agranulosis or granulopenia, is an acute ..."
+57,"A 15-year-old woman presents with fever, altered m...",B,B,True,"B
+
+Explanation: The patient's symptoms suggest a diagnosis of TSS (Toxic Shock Syndrome), which is caused by Staphylococcus aureus. The presence of a tampon, heavy menstrual bleeding, fever, altered mental status, petechial rash, hypotension, and nausea are consistent with TSS. The B7 receptor on antigen-presenting cells and its interaction with the T cell receptor (specifically the variable β-sequence) is crucial for initiating an immune response against",Fact about B7 receptor: B7 is a type of integral membrane protein found on activated antigen-present...
+58,A 2-year-old boy is brought to the physician for e...,C,C,True,"C
+
+The patient presents with symptoms of hemolytic uremic syndrome (HUS), including bloody diarrhea, recent history of abdominal pain and vomiting, pallor, and laboratory findings such as anemia (low hemoglobin and mean corpuscular volume), schistocytes on blood smear, and elevated lactate dehydrogenase, which are consistent with hemolysis. The presence of scleral icterus and elevated bilirubin levels further support the diagnosis of hemolysis. While the","Fact about Henoch-Schönlein Purpura: IgA vasculitis, previously known as Henoch–Schönlein purpura (H..."
+59,A 17-year-old girl is referred by her dentist for ...,A,C,False,"C
+
+Explanation: The patient described exhibits symptoms of both anorexia nervosa (fear of gaining weight, regular purging behavior) and bulimia nervosa (induced vomiting). This aligns with the context provided about patients having a history of both conditions. Option A is incorrect because patients with eating disorders are often sub-typed based on specific criteria. Option B is incorrect as many patients do seek treatment, though it may vary in initiation. Option D is incorrect as the patient's","Fact about Patients can have a history of both anorexia and bulimia: Anorexia nervosa (AN), often re..."
+60,A 14-year-old girl is brought to the physician by ...,C,C,True,"C
+
+Explanation: The patient's symptoms, including fever, chills, abdominal pain, and profuse non-bloody diarrhea, along with a history of travel to Indonesia, suggest a diagnosis of typhoid fever, which is caused by Salmonella typhi. The presence of a faint salmon-colored maculopapular rash (rose spots) is also indicative of typhoid fever. Giardia lamblia typically causes diarrhea without fever or rash, Schistosoma mansoni","Fact about Giardia lamblia: Giardia duodenalis, also known as Giardia intestinalis and Giardia lambl..."
+61,A 22-year-old female college student is treated wi...,A,A,True,"A
+
+Explanation: The symptoms described (facial flushing, nausea, tachycardia, dyspnea, headache, and abdominal cramps) are consistent with acetaldehyde toxicity, often seen in individuals who have an inherited deficiency in alcohol dehydrogenase, leading to increased levels of acetaldehyde after alcohol consumption. Metronidazole is used to treat infections caused by anaerobic bacteria and protozoa but does not directly affect acetaldehyde levels. Uric acid,",Fact about Acetaldehyde: Acetaldehyde (IUPAC systematic name ethanal) is an organic chemical compoun...
+62,A 23-year-old primigravida presents for a regular ...,D,B,False,"B
+
+The patient's symptoms of increased fatigability along with low hemoglobin (11.1 g/dL), hematocrit (32%), and MCV (90 fL) suggest iron deficiency anemia. The reticulocyte count being low (0.2%) further supports this diagnosis, as it indicates that the bone marrow is not responding appropriately to the anemia. Therefore, a serum iron level and total iron-binding capacity (TIBC) would be necessary to",Fact about Serum iron level: Total iron-binding capacity (TIBC) or sometimes transferrin iron-bindin...
+63,An 80-year-old man is transferred from a step-down...,A,A,True,"A
+
+The patient's history of not passing urine since his surgery, along with the absence of urine on a bladder scan, suggests urinary retention. Given the patient's obesity, which can complicate bladder scans, the next best step would be to insert a'straight cath' into the patient’s bladder to confirm the presence of urinary retention and relieve it.","Fact about Aggressive IV fluids: Abdominal pain, also known as a stomach ache, is a symptom associat..."
+64,A healthy 19-year-old man presents to his primary ...,A,B,False,"B
+
+Explanation: The clinical presentation described suggests a diagnosis of candidiasis, commonly known as thrush, which is caused by an overgrowth of Candida species, particularly Candida albicans. Candida species produce a white, adherent film on the mucosal surfaces that can be wiped away to reveal erythematous mucosa. The treatment for candidiasis often involves antifungals that disrupt fungal cell membrane integrity, such as nystatin or fluconazole. None of",Fact about Disruption of cell membrane permeability: The lipid bilayer (or phospholipid bilayer) is ...
+65,A 56-year-old man presents to the clinic complaini...,B,B,True,"B
+
+Explanation: Given the patient's history of non-small cell lung cancer with previous treatment and a positive past medical history, the most likely imaging finding would be lytic lesions of the lumbar spine, which can indicate metastatic disease from the lung cancer. The other options are less likely given the context provided.",No specific external evidence found....
+66,A 4-year-old boy is brought to the emergency depar...,C,C,True,"C
+
+Explanation: In emergency situations where there is a life-threatening condition and immediate intervention is necessary, the standard of care is to perform the procedure without delay, even if parental consent cannot be obtained immediately. The patient's condition (severe abdominal pain, bilious vomiting, distended abdomen, tenderness, guarding, and rebound tenderness, and dilated loops of bowel on X-ray) suggests a potential bowel obstruction or perforation, which requires urgent surgical intervention. Delaying surgery could worsen",Fact about Perform emergency laparotomy: An exploratory laparotomy is a general surgical operation w...
+67,A 3-week-old male newborn is brought to the hospit...,B,C,False,"C
+
+The clinical presentation of the newborn, including poor weight gain, irritability, fever, tachycardia, tachypnea, and a paucity of subcutaneous fat, along with the presence of a midline neck swelling, suggests congenital hypothyroidism due to transplacental passage of maternal antibodies (most commonly thyroid peroxidase antibodies) during pregnancy. This condition can lead to a form of neonatal hyperthyroidism known as transient neonatal",Fact about Transplacental viral infection: Viral hepatitis is liver inflammation due to a viral infe...
+68,A 57-year-old female with a past medical history o...,D,A,False,"A
+
+Explanation: The patient's presentation suggests variceal bleeding secondary to portal hypertension, given the presence of splenomegaly and a positive fluid wave, which are signs of portal hypertension. Phentolamine, as a non-selective alpha-adrenergic antagonist, can be used to manage severe bleeding from esophageal varices by causing vasoconstriction and reducing portal venous flow. While octreotide was administered, which is a somatostatin analogue used to","Fact about Phentolamine: Phentolamine, sold under the brand name Regitine among others, is a non-sel..."
+69,"A 65-year-old man with a history of hypertension, ...",A,B,False,"B
+
+Explanation: Given the patient's history of alcoholic cirrhosis, the presence of a 2 cm right hepatic lobe lesion with enhancement in the arterial phase on CT scan, and the absence of hypodense attenuation on the venous or delayed phase, this suggests a possible hepatocellular carcinoma (HCC). For small HCCs, surgical resection is often considered if the patient is a good candidate and the tumor is amenable to resection. Radiofrequency ablation is","Fact about Refer for surgical resection: Segmental resection, or segmentectomy, is a surgical proced..."
+70,A 66-year-old man is brought to the emergency room...,A,A,True,"A
+
+The patient's presentation includes significant ascites, altered mental status, hyperreflexia, and asterixis, which are classic signs of hepatic encephalopathy. The laboratory findings show elevated ammonia levels (100 µg/dL), indicating liver dysfunction. The presence of ascites and the absence of other causes such as active bleeding from varices or brain pathology suggest spontaneous bacterial peritonitis (SBP) as the most likely cause of the acute change in the patient",Fact about Spontaneous bacterial peritonitis: Spontaneous bacterial peritonitis (SBP) is the develop...
+71,A 27-year-old man presents to the emergency depart...,A,A,True,"A
+
+Explanation: The patient's presentation includes blunt trauma to the chest (unrestrained driver in a head-on collision with bruising over the chest wall), elevated troponins, and a history of chest pain. These findings are consistent with a cardiac contusion, where the heart sustains a bruise due to blunt trauma. While the other conditions (hemorrhage, pulmonary contusion, and Takotsubo cardiomyopathy) can present with similar symptoms, the specific mechanism of injury",Fact about Cardiac contusion: A blunt cardiac injury is an injury to the heart as the result of blun...
+72,A 56-year-old man presents to the emergency depart...,C,C,True,"C
+
+The patient's presentation suggests complications from liver cirrhosis, including ascites, hepatomegaly, and now oliguria, which could indicate the development of hepatorenal syndrome (HRS). Given the patient's history of cirrhosis and the current clinical scenario, liver transplantation would be the most appropriate next step, as it addresses the underlying liver dysfunction and could potentially reverse the progression of complications.",Fact about Liver transplantation: Liver transplantation or hepatic transplantation is the replacemen...
+73,A 29-year-old woman presents to the clinic after s...,B,B,True,"B
+
+The patient's symptoms suggest hyperthyroidism, given the weight loss, fine hand tremor, warm skin, and tachycardia. Methimazole is the most appropriate initial treatment for hyperthyroidism, particularly in cases like this where it's likely due to Graves' disease.","Fact about Glucocorticoids: Glucocorticoids (or, less commonly, glucocorticosteroids) are a class of..."
+74,A 21-year-old man comes to the physician because o...,C,D,False,"D
+
+The most likely diagnostic method to confirm the diagnosis in this case is a skin biopsy. Given the patient's recent travel history, the nature of the rash (hypopigmented and expanding), and the presence of pruritus, the differential diagnoses could include various dermatological conditions such as fungal infections, viral infections (like tinea versicolor or pityriasis versicolor), or other dermatoses. A skin biopsy would provide definitive histopathological evidence needed to make an accurate diagnosis.","Fact about Wood lamp examination: A blacklight, also called a UV-A light, Wood's lamp, or ultraviole..."
+75,A 5-year-old female is brought to a speech therapi...,A,D,False,"D
+
+The patient's symptoms, including a high-pitched mewing cry at birth, microcephaly, prominent epicanthal folds, and a holosystolic murmur, are indicative of Down syndrome, which is caused by an extra copy of chromosome 21. This condition is also known as trisomy 21. Therefore, the correct answer is D: 21.","Fact about 5: 5 (five) is a number, numeral and digit. It is the natural number, and cardinal number..."
+76,A 62-year old female comes to the physician becaus...,B,B,True,"B
+
+Explanation: Given the patient's history of vaginal spotting and the presence of a firm, immobile, erythematous mass on the right inner vaginal wall, the most appropriate next step is to perform a biopsy of the mass. This will help determine the nature of the mass and guide further management.","Fact about Biopsy of the mass: A breast mass, also known as a breast lump, is a localized swelling t..."
+77,A 59-year-old man is evaluated for progressive joi...,B,C,False,"C
+
+The patient presents with progressive joint pain, swelling, and tenderness over the metacarpophalangeal joints, which are classic symptoms of inflammatory rheumatological conditions such as rheumatoid arthritis. The elevated transferrin saturation and high serum ferritin levels suggest iron overload, but these findings are not specific to the given options. The context does not provide evidence of crystal deposition diseases or pathogenic inoculation. Therefore, the most likely diagnosis is an inflammatory rheumatological syndrome like","Fact about Inflammatory rheumatological syndrome: Raynaud syndrome, also known as Raynaud's phenomen..."
+78,A newborn is found to be extremely cyanotic immedi...,C,B,False,"B
+
+Persistent truncus arteriosus (PTA) is the most likely cause of this newborn's condition. PTA results in a single vessel supplying both the pulmonary and systemic circulation, leading to cyanosis due to mixing of oxygenated and deoxygenated blood. The single loud S2 heart sound and machine-like murmur at the left upper sternal border are consistent with PTA. Additionally, the enlarged ""egg-shaped"" heart on radiography is also a characteristic finding in PTA",Fact about Coarctation of the aorta: Coarctation of the aorta (CoA) is a congenital condition whereb...
+79,A 25-year-old male involved in a knife fight prese...,C,C,True,"C
+
+Explanation: Given the full thickness penetrating injury to the right ventricular free wall, the most appropriate immediate surgical approach is to perform interrupted 2-0 polypropylene suturing with supporting pledgets to repair the ventricular wall. Cardiac transplant is not indicated for this acute, potentially repairable injury. Watchful waiting would be inappropriate given the hemodynamic instability. Needle thoracostomy is used to manage pneumothorax or hemothorax, not for repairing a ventricular",Fact about Immediate cardiac transplant: Organ transplantation is a medical procedure in which an or...
+80,A post-mortem lung examination of a 68-year-old ma...,B,C,False,"C
+
+Explanation: The patient's history suggests chronic lower extremity edema, a significant smoking history, and a productive cough, which could indicate chronic obstructive pulmonary disease (COPD) or other chronic inflammatory conditions. Non-caseating granulomas can be indicative of conditions such as sarcoidosis, which often presents with these symptoms. The other options (hypereosinophilia, Reid Index > 50%, and evidence of a necrotizing infection) do not align as closely",Fact about Hypereosinophilia: Eosinophilia is a condition in which the eosinophil count in the perip...
+81,A 54-year-old male makes an appointment with his p...,A,C,False,"C
+
+Explanation: The description of enlarged nodules and a characteristic change in chromosome 18 suggests a diagnosis of multiple endocrine neoplasia type 2A (MEN2A), which is associated with mutations in the RET proto-oncogene. While the context provided does not directly mention RET, the presence of enlarged nodules and a specific chromosomal change often points towards RET mutation. CDK4 is involved in cell cycle regulation, but the key abnormality in MEN2A",Fact about Caspase-9: Caspase-9 is an enzyme that in humans is encoded by the CASP9 gene. It is an i...
+82,A 44-year-old African-American woman comes to the ...,C,C,True,"C
+
+Explanation: Given the context provided, the patient's history and examination findings suggest a higher risk for acral lentiginous melanoma (ALM). ALM is more common in individuals with darker skin tones, such as African Americans, and can present as a dark, irregular mark on the skin, often in areas not typically exposed to sunlight, like the palms, soles, or undernail beds. The other types of melanoma mentioned (desmoplastic, nodular,",Fact about Desmoplastic: Desmoplastic small-round-cell tumor (DSRCT) is an aggressive and rare cance...
+83,A 60-year-old woman is brought to the clinic by he...,A,A,True,"A
+
+The patient's symptoms of neck stiffness and bilateral shoulder tenderness, along with elevated erythrocyte sedimentation rate (ESR) and C-reactive protein (CRP), suggest inflammation. Given the context provided about jaw claudication being a symptom of giant-cell arteritis, and the patient's age and family history of ischemic stroke, screening for jaw claudication (indicative of giant-cell arteritis) would be appropriate. The other conditions (heliotrope rash",Fact about Jaw claudication: Jaw claudication is pain in the jaw associated with chewing. It is a cl...
+84,A 30-year-old woman comes to the physician because...,C,A,False,"A
+
+Explanation: The patient's symptoms of episodic pelvic and back pain accompanied by painful diarrhea suggest possible adhesions or inflammation in the pelvis, which could be indicative of a previous infection affecting the fallopian tubes. The history of infertility and the episodic nature of the symptoms align well with the possibility of loss of fallopian tube function following an infection. The other options do not fit the clinical presentation as well: there is no evidence of a tumor or endometriosis,",Fact about Loss of fallopian tube function following infection: Ectopic pregnancy is a complication ...
+85,A 55-year-old truck driver is brought to a physici...,B,B,True,"B
+
+The presence of friable irregular masses attached to the valve would be most helpful in establishing a diagnosis of infective endocarditis, given the patient's history of tricuspid valve replacement, fever, weakness, and hemorrhages on the nail beds, which are consistent with septic emboli.","Fact about Bicuspid valve: The tricuspid valve, or right atrioventricular valve, is on the right dor..."
+86,A previously healthy 30-year-old woman comes to th...,C,C,True,"C
+
+The patient's symptoms of dyspareunia (pain during sexual intercourse) and cyclic pelvic pain suggest possible endometriosis or pelvic inflammatory disease. Given the rectovaginal tenderness noted on physical examination, laparoscopy would be the most appropriate next step to visualize and diagnose potential pelvic pathology, such as endometriotic lesions or adhesions, which could explain her symptoms.",Fact about Hysterectomy: Hysterectomy is the surgical removal of the uterus and cervix. Supracervica...
+87,A 50-year-old man visits his physician after 20 ye...,C,C,True,"C
+
+Explanation: The patient's total cholesterol and LDL-cholesterol levels are elevated, which indicates the need for treatment to reduce cardiovascular risk. While blood pressure is elevated, it is within the range considered prehypertensive (130/90 mm Hg), and thus may not require immediate treatment without further evaluation. The patient's weight is not provided, but being obese increases cardiovascular risk. The fasting serum glucose level is slightly elevated (105 mg/dL), but",Fact about Blood pressure reading: Blood pressure (BP) is the pressure of circulating blood against ...
+88,A 26-year-old woman is brought to the emergency de...,C,D,False,"D
+
+The patient's presentation includes severe respiratory distress, hypotension, tachypnea, and a widened mediastinum on chest X-ray, which are consistent with a tension pneumothorax. The other conditions (diaphragmatic rupture, traumatic bronchial rupture, and thoracic aortic rupture) do not present with these specific findings.",Fact about Diaphragmatic rupture: Diaphragmatic rupture (also called diaphragmatic injury or tear) i...
+89,A 26-year-old G1P0 woman presents to her primary c...,B,B,True,"B
+
+Explanation: Given the patient's presentation of hyperthyroidism symptoms, including anxiety, palpitations, and difficulty sleeping, along with laboratory findings of low TSH and high FT4, the diagnosis of hyperthyroidism is likely. For a pregnant patient, Propylthiouracil (PTU) is generally considered the first-line treatment due to its better safety profile during the first trimester compared to Methimazole. Therefore, the best treatment option is B: Propyl","Fact about Methimazole: Thiamazole, also known as methimazole, is a medication used to treat hyperth..."
+90,A 32-year-old woman comes to the physician because...,D,A,False,"A
+
+The patient's symptoms, including intermittent loose stools, weight loss, abdominal tenderness, hepatosplenomegaly, and eosinophilia, along with the finding of oval-shaped eggs with lateral spines on stool culture, suggest a diagnosis of schistosomiasis, specifically Schistosoma mansoni infection. This is often associated with exposure to freshwater contaminated with the cercariae of S. mansoni, which can be carried by certain species of freshwater snails. Therefore",Fact about Undercooked pork meat: Pork is the culinary name for the meat of the pig (Sus domesticus)...
+91,A 3-month-old girl is brought to a pediatrician by...,B,B,True,"B
+
+Explanation: The statement ""Normal hemoglobin in patients with tetralogy of Fallot does not rule out iron deficiency anemia"" is true. While these patients often have cyanosis due to right-to-left shunting, they can still develop iron deficiency anemia due to chronic blood loss or poor dietary intake, even if their hemoglobin levels appear normal. The other options are incorrect based on the given context: cerebral arterial thrombosis is less common than cerebral venous thrombosis,",Fact about Cerebral arterial thrombosis is more common than cerebral venous thrombosis.: Cerebral ve...
+92,Six days after undergoing surgical repair of a hip...,C,C,True,"C
+
+Explanation: The patient's symptoms of agitation, confusion, fluctuating consciousness, and inattention, along with the context of recent surgery and the presence of a known risk factor (oxycodone use), strongly suggest delirium. Dementia typically has a more gradual onset and does not present with such acute fluctuations in consciousness. Opioid intoxication would likely present with more pronounced respiratory depression and sedation, which are not mentioned. A urinary tract infection would more commonly present with systemic","Fact about Dementia: Dementia is a syndrome associated with many neurodegenerative diseases, charact..."
+93,A 54-year-old woman with a past medical history of...,D,A,False,"A
+
+Explanation: The patient's presentation includes ataxia, altered behavior, spasticity, and a positive Babinski sign, which are consistent with a neurological condition affecting the brain. Cerebral palsy, especially if it involves spasticity and ataxia, fits the clinical picture better than the other conditions listed. Diabetes mellitus, Down syndrome, and rheumatoid arthritis do not typically present with these specific neurological findings.",Fact about Cerebral palsy: Cerebral palsy (CP) is a group of movement disorders that appear in early...
+94,A 24-year-old man is brought to the emergency depa...,C,D,False,"D
+
+The patient's presentation suggests a flail chest, which would lead to paradoxical motion of the chest wall during breathing. The muffled heart sounds and jugular venous distention are consistent with significant intrathoracic hemorrhage or tamponade, but the primary finding related to breathing would be paradoxical motion due to the flail segment of the rib cage moving in the opposite direction to the rest of the chest wall.",Fact about Tracheal deviation toward the right side: Mediastinal shift is an abnormal movement of th...
+95,A 40-year-old man presents to his primary-care doc...,D,C,False,"C
+
+The patient's presentation with palpable flank masses and elevated creatinine level suggests the possibility of renal masses or other renal pathology. Given the family history of kidney disease and the presence of bilateral flank masses, liver function tests are not directly relevant to the primary concern of renal issues. Colonoscopy and EGD are more pertinent for gastrointestinal concerns, which do not align with the clinical scenario described. MR angiography of the brain is not indicated for evaluating renal masses. Therefore, the most appropriate initial",Fact about Colonoscopy: Colonoscopy () or coloscopy () is a medical procedure involving the endoscop...
+96,A 17-year-old female is brought to the emergency r...,A,A,True,"A
+
+The patient's symptoms include shortness of breath, chest pain exacerbated by breathing or coughing, and hemoptysis (coughing up blood). These symptoms are consistent with a pulmonary embolism, where a blood clot blocks a pulmonary artery. Pulmonary emboli can occur due to deep vein thrombosis (DVT) and are often caused by factors such as prolonged immobility, surgery, or genetic predispositions. The fact that the patient has a large filling defect in","Fact about Autosomal dominant: In genetics, dominance is the phenomenon of one variant (allele) of a..."
+97,A 26-year-old male presents to his primary care ph...,B,B,True,"B
+
+Explanation: The scenario describes a recurrent infection with a sexually transmitted disease (STD) likely caused by Neisseria gonorrhoeae, given the symptoms and culture results. Recurrent infections despite treatment often indicate antigenic variation, where the pathogen can change its surface proteins to evade the host immune response, leading to reinfection. This aligns with the fact provided about antigenic variation.",Fact about Exotoxin release: An exotoxin is a toxin secreted by bacteria. An exotoxin can cause dama...
+98,A 37-year-old man with no significant past medical...,B,A,False,"A
+
+Explanation: Given the patient's recent motor vehicle accident and significant neck pain, the most appropriate next step is to obtain a lateral cervical film to rule out any potential cervical spine injury, which could be life-threatening if not properly managed. Cervical immobilization may be considered concurrently depending on the findings, but imaging is necessary first to assess for fractures or other injuries. Methylprednisolone is typically used in cases of suspected spinal cord injury to reduce inflammation, but without clear indications of","Fact about Lateral cervical film: Amyotrophic lateral sclerosis (ALS), also known as motor neuron di..."
+99,"A 43-year-old man with a history of schizophrenia,...",B,B,True,"B
+
+Explanation: Bromocriptine is not typically associated with galactorrhea or decreased libido, which are common side effects of typical antipsychotics like Haloperidol, Fluphenazine, and Risperidone. Bromocriptine primarily affects dopamine receptors and is used for conditions unrelated to these side effects.","Fact about Haloperidol: Haloperidol, sold under the brand name Haldol among others, is a typical ant..."
