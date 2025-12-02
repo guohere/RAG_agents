@@ -37,7 +37,7 @@ tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
 model = AutoModelForCausalLM.from_pretrained(MODEL_ID, quantization_config=bnb_config, device_map="auto")
 
 # Increased max_tokens to 512 to allow space for "Reasoning"
-pipe = pipeline("text-generation", model=model, tokenizer=tokenizer, max_new_tokens=512, temperature=0.1)
+pipe = pipeline("text-generation", model=model, tokenizer=tokenizer, max_new_tokens=1024, temperature=0.1)
 
 # ==========================================
 # 3. THE ROUTER (CLASSIFIER)
@@ -210,19 +210,12 @@ def get_evidence_mechanism(options):
 def solve_question_cot(question, options, evidence, category):
     options_fmt = "\n".join([f"{k}: {v}" for k, v in options.items()])
     
-    # Dynamic System Role
-    role_map = {
-        "Diagnosis": "You are a Diagnostic Expert. Differential diagnosis is key.",
-        "Treatment": "You are a Clinical Pharmacologist. Focus on first-line therapies.",
-        "Mechanism": "You are a Biomedical Scientist. Focus on molecular pathways."
-    }
-    sys_role = role_map.get(category, "You are a Medical Expert.")
+    sys_role = "You are a Medical Expert. specific and concise."
 
-    # Chain-of-Thought Prompt
     messages = [
-        {"role": "system", "content": f"{sys_role} Answer the USMLE question. Use the provided Context."},
+        {"role": "system", "content": sys_role},
         {"role": "user", "content": f"""
-            Context from Medical Library:
+            Context:
             {evidence}
 
             Question:
@@ -231,18 +224,20 @@ def solve_question_cot(question, options, evidence, category):
             Options:
             {options_fmt}
 
-            Instructions:
-            1. Analyze the patient's symptoms/history.
-            2. Evaluate each option against the context.
-            3. Eliminate incorrect options step-by-step.
-            4. State the final answer clearly at the end.
-
-            Format your response exactly like this:
-            Reasoning: [Your step-by-step logic]
-            Answer: [Option Letter]"""}
+            Task:
+            1. Analyze symptoms briefly (max 2 sentences).
+            2. Eliminate wrong options based on context.
+            3. Select the best answer.
+            
+            CRITICAL: Keep reasoning under 200 words. 
+            YOU MUST END WITH "Answer: [Option Letter]"
+            
+            Format:
+            Reasoning: [Concise logic]
+            Answer: [Option Letter]
+        """}
     ]
     
-    # Generate
     output = pipe(messages)
     return output[0]['generated_text'][-1]['content']
 
@@ -292,15 +287,35 @@ for i, sample in tqdm(enumerate(subset), total=NUM_SAMPLES_TO_TEST):
     
     # 4. PARSE
     pred = parse_final_answer(raw_response)
-    is_correct = (pred == correct_key)
-    
+    if pred == "Unknown":
+        print(f"   ⚠️ Truncation detected for ID {i}. Attempting repair...")
+        
+        # We assume the reasoning is there but cut off. 
+        # We force the model to just output the letter based on what it wrote so far.
+        repair_messages = [
+            {"role": "user", "content": f"""
+            Based on the following medical reasoning, which is the correct option letter (A, B, C, or D)?
+            
+            Reasoning so far:
+            {raw_response[-1000:]} 
+            
+            Output ONLY the letter.
+            """}
+        ]
+        repair_output = pipe(repair_messages, max_new_tokens=10)[0]['generated_text'][-1]['content']
+        pred = parse_final_answer(repair_output)
+        
+        # Append a note to reasoning so you know it was repaired
+        raw_response += f"\n[SYSTEM: Output was truncated. Repair Loop Prediction: {pred}]"
+
+    # Save result
     results.append({
         "id": i,
         "category": category,
-        "is_correct": is_correct,
+        "is_correct": (pred == correct_key),
         "prediction": pred,
         "correct_answer": correct_key,
-        "reasoning": raw_response[:500] + "..." # Save reasoning for review
+        "reasoning": raw_response
     })
 
 # ==========================================
