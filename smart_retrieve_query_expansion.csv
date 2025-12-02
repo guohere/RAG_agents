@@ -1,0 +1,60 @@
+id,category,is_correct,prediction,correct_answer,reasoning
+0,Treatment,False,A,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient has had a flexor tendon cut during a carpal tunnel repair. While the tendon was repaired without complication, the attending physician believes that the patient will do fine and suggests not reporting this as a complication to avoid unnecessary worry. However, as a medical professional, it is important to ensure transparency and accurate documentation of all procedures and complications.
+
+2. **Evaluate Each Option**:
+   - **O..."
+1,Mechanism,False,B,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 67-year-old man who received neoadjuvant chemotherapy 1 week ago and now has a 2-day history of a ringing sensation in his ear, along with a sensorineural hearing loss of 45 dB. This suggests that the chemotherapy might have caused ototoxicity leading to sensorineural hearing loss.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Inhibition of Proteasome**: Proteasome inhibitors are commonly used in can..."
+2,Diagnosis,False,Unknown,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient has decreased urinary output and malaise two weeks after an emergency cardiac catheterization with stenting for unstable angina pectoris.
+   - He has type 2 diabetes mellitus and osteoarthritis of the hips.
+   - Medications include insulin, naproxen, aspirin, clopidogrel, and metoprolol.
+   - Physical examination shows mottled, reticulated purplish discoloration of the feet.
+   - Laboratory findings include elevated whit..."
+3,Diagnosis,False,Unknown,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient presents with fever, chills, and left lower quadrant pain, indicating a possible infection.
+   - There is blood oozing around a peripheral intravenous line, suggesting local infection or sepsis.
+   - Pelvic examination reveals mucopurulent discharge and left adnexal tenderness, pointing towards a gynecological infection.
+   - Laboratory findings include a low platelet count, low fibrinogen, and high D-dimer, indicating d..."
+4,Treatment,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: 
+   - The patient presents with itchy, watery eyes and frequent sneezing, which are classic symptoms of allergic conjunctivitis. The history of a similar episode in springtime suggests seasonal allergies.
+   - The patient has no significant ocular findings other than conjunctival injection and watery discharge, which further supports the diagnosis of allergic conjunctivitis.
+   - The patient’s occupation as an elementary school teacher d..."
+5,Treatment,False,C,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with progressively worsening chest pain and nausea, which started 30 minutes ago and radiates to the epigastric area.
+   - He has a history of untreated hypertension, smoking, and cocaine abuse.
+   - The patient is diaphoretic and in marked distress, indicating significant discomfort.
+
+2. **Evaluate Each Option Against the Context**:
+   - **A: Diltiazem**: Diltiazem is a calcium channel blocker used to treat hig..."
+6,Diagnosis,False,A,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 68-year-old male with a history of diabetes and peripheral artery disease.
+   - He presents with right flank pain, abdominal tenderness, and right flank tenderness.
+   - An ultrasound shows dilation of the right ureter and renal pelvis.
+   
+2. **Evaluate Each Option Against the Context**:
+   - **A: Renal artery stenosis**: This condition involves narrowing of the renal arteries, which can lead to renovascular hypert..."
+7,Treatment,False,Unknown,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient presents with acute chest pain, diaphoresis, and ST-segment depressions on ECG, indicating acute coronary syndrome (ACS).
+   - The patient’s ECG shows ST-segment depressions in leads II, III, and aVF, which suggests involvement of the right coronary artery.
+   - The patient has a history of hypertension and asthma, and is currently on atorvastatin, lisinopril, and an albuterol inhaler.
+   - The patient underwent percutan..."
+8,Treatment,False,Unknown,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 37-year-old woman with no significant symptoms or findings on physical examination. She has no history of cardiovascular issues, and her vital signs are within normal limits. There is no mention of any specific risk factors that would necessitate the exclusion of a copper IUD.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: A history of stroke or venous thromboembolism**: While both conditions are asso..."
+9,Diagnosis,False,Unknown,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 23-year-old woman who is embarrassed about the appearance of her nails. She has no history of serious illness and takes no medications. The context provides information about onychomycosis, which includes symptoms such as white or yellow nail discoloration, thickening of the nail, and separation of the nail from the nail bed. Given these symptoms, we should look for findings consistent with onychomycosis.
+
+2. **Evaluate ..."
