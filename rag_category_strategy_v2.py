@@ -15,7 +15,7 @@ from tqdm import tqdm
 # ==========================================
 # 1. CONFIGURATION
 # ==========================================
-NUM_SAMPLES_TO_TEST = 10
+NUM_SAMPLES_TO_TEST = 1000
 OUTPUT_FILE = "smart_retrieve_query_expansion.csv"
 MODEL_ID = "Qwen/Qwen2.5-7B-Instruct"
 
