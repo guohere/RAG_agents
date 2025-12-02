@@ -1,0 +1,1350 @@
+id,category,is_correct,prediction,correct_answer,reasoning
+0,Treatment,False,A,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient had a carpal tunnel repair where a flexor tendon was inadvertently cut during the procedure. While the tendon was repaired without complication, the attending physician advised against reporting this complication to the patient or including it in the operative report, stating that it would not harm the patient and to avoid unnecessary worry.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Disclose the error..."
+1,Mechanism,False,A,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient has experienced a 2-day history of a ringing sensation in his ear, followed by a sensorineural hearing loss of 45 dB after receiving neoadjuvant chemotherapy 1 week ago. Sensorineural hearing loss is often associated with ototoxicity, which can be caused by certain chemotherapeutic agents.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Inhibition of proteasome**: Proteasome inhibitors like bortezomib, carf..."
+2,Diagnosis,False,Unknown,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient had a recent emergency cardiac catheterization and stenting for unstable angina pectoris.
+   - He now presents with decreased urinary output and malaise.
+   - He has a history of type 2 diabetes mellitus and osteoarthritis of the hips.
+   - He is on multiple medications including insulin, naproxen, aspirin, clopidogrel, and metoprolol.
+   - Physical examination reveals mottled, reticulated purplish discoloration of the f..."
+3,Diagnosis,False,Unknown,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient presents with fever, chills, and left lower quadrant pain, indicating a possible intra-abdominal infection.
+   - There is blood oozing around a peripheral intravenous line, suggesting a local infection or sepsis.
+   - Pelvic examination reveals mucopurulent discharge and left adnexal tenderness, pointing towards a gynecological infection.
+   - Laboratory findings include a significantly reduced platelet count (thrombocyt..."
+4,Treatment,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient presents with itchy, watery eyes, sneezing, and conjunctival injection with watery discharge. These symptoms suggest allergic conjunctivitis, which is a common condition characterized by itching, redness, and watery discharge due to allergens.
+   - The patient had a similar episode last year during spring, indicating a seasonal pattern consistent with allergic conjunctivitis.
+   - The patient's occupation as an elementar..."
+5,Treatment,False,B,D,"Reasoning: 
+1. **Analyze the patient's symptoms/history**: The patient presents with progressively worsening chest pain and nausea, radiating to the epigastric area, and is diaphoretic and in marked distress. These symptoms are consistent with unstable angina or possibly a myocardial infarction (MI), given the recent onset and severity. The patient also has a history of untreated hypertension and substance abuse (cocaine), which can exacerbate cardiovascular risk.
+
+2. **Evaluate each option**:
+ ..."
+6,Diagnosis,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 68-year-old male with diabetes and peripheral artery disease.
+   - He presents with right flank pain, abdominal tenderness, and right flank tenderness.
+   - An ultrasound shows dilation of the right ureter and renal pelvis.
+   
+2. **Evaluate Each Option Against the Context**:
+   - **Renal Artery Stenosis**: This condition typically presents with uncontrolled hypertension and decreased kidney function. While it can c..."
+7,Treatment,False,Unknown,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient presents with acute chest pain, hypertension, and a history of atorvastatin, lisinopril, and albuterol use.
+   - The ECG shows ST-segment depressions in leads II, III, and aVF, indicating ischemia.
+   - Elevated serum troponin T suggests myocardial injury.
+   - The patient underwent percutaneous transluminal coronary angioplasty, indicating a definitive diagnosis of acute coronary syndrome (ACS).
+   - The echocardiogram ..."
+8,Treatment,False,Unknown,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 37-year-old woman with no significant symptoms or abnormalities noted on physical examination. She has a history of using oral contraceptive pills for 8 years and is seeking a change to an intrauterine device (IUD).
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: A history of stroke or venous thromboembolism**
+     - According to the context, the guidelines for treating venous thromboembolism (VTE) do ..."
+9,Diagnosis,False,C,A,"Reasoning: 
+1. The patient is a 23-year-old woman who is embarrassed about the appearance of her nails. This suggests a cosmetic concern rather than a systemic or infectious disease.
+2. The question asks for an additional finding that is most likely in this patient based on the given information.
+3. Let's evaluate each option:
+
+   A: Silvery plaques on extensor surfaces - This description does not match any known nail or skin condition related to dental enamel erosion or other common conditions...."
+10,Diagnosis,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 24-year-old G2P1 woman at 39 weeks' gestation presenting with signs of latent labor. She has had little prenatal care and uses condoms inconsistently, which suggests potential exposure to sexually transmitted infections (STIs). The administration of zidovudine during delivery and to the infant indicates a concern for HIV infection, as zidovudine is commonly used to reduce the risk of HIV transmission from mother to child..."
+11,Diagnosis,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient presents with fatigue, worsening abdominal pain, night sweats, shortness of breath on exertion, and significant weight loss over 3 months.
+   - He has a history of myocardial infarction, hypertension, diabetes mellitus, and chronic bronchitis.
+   - Physical examination reveals splenomegaly (palpable 6 cm below the left costal margin).
+   - Laboratory findings include:
+     - Hemoglobin 6.4 g/dL (anemia)
+     - Mean corpu..."
+12,Diagnosis,False,C,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with worsening gait unsteadiness, bilateral hearing loss, and intermittent tingling sensations on both cheeks.
+   - Audiometry shows bilateral sensorineural hearing loss.
+   - Genetic evaluation reveals a mutation of a tumor suppressor gene on chromosome 22 that encodes merlin.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Renal cell carcinoma**: The classic triad for renal cell carcinoma includes hem..."
+13,Mechanism,False,Unknown,D,"Reasoning: 
+1. **Analyze the patient's symptoms/history**: The patient is a 47-year-old executive with no complaints and only a mid-systolic murmur heard in the 2nd left intercostal space that radiates to the carotids. This finding is indicative of aortic valve regurgitation, where blood flows back into the left ventricle during systole. When the patient stands from a supine position, the gravitational effect causes more blood to pool in the lower extremities, reducing the volume of blood return..."
+14,Mechanism,False,D,C,"Reasoning: Let's analyze the given information and evaluate each option step-by-step.
+
+1. **Epstein-Barr Virus (EBV)**:
+   - EBV is a double-stranded DNA virus.
+   - It establishes a permanent infection in human B cells.
+   - There is no mention of EBV being able to produce multiple genome segments from different viruses within the same host cell and package them into a new virus particle.
+
+2. **Human Immunodeficiency Virus (HIV)**:
+   - HIV is a retrovirus, meaning it uses reverse transcriptase..."
+15,Diagnosis,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 59-year-old overweight woman with a history of recurrent abdominal pain due to cholelithiasis.
+   - She presents with severe abdominal pain for the past 2 hours, a dull pain in her back, nausea, and vomiting several times. These symptoms are not related to food intake.
+   - A CT scan shows a calcified mass near her gallbladder.
+
+2. **Evaluate Each Option Against the Context**:
+
+   - **Acute Cholecystitis**: This con..."
+16,Mechanism,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 7-year-old boy with a history of asthma, which worsens in spring due to exposure to pollen. This suggests an allergic component to his asthma, as allergies often trigger asthma symptoms, particularly in response to environmental allergens like pollen.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: IL-2**: Interleukin-2 (IL-2) is primarily involved in T-cell activation and proliferation. It does not di..."
+17,Diagnosis,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 3-month-old boy who experienced an episode of cyanosis and muscle hypotonia that resolved after 2 minutes. This episode was classified as a brief resolved unexplained event (BRUE). The pediatrician aims to identify risk factors for BRUE by comparing 75 infants with BRUE to 75 infants without BRUE, matching them on age, socioeconomic background, and family history of medical illness. The study then compares these two grou..."
+18,Treatment,False,Unknown,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient presents with central chest pain that is constant, unrelated to exertion, sharp, severe, and exacerbated by lying down and relieved by leaning forward. This is characteristic of pericarditis, particularly constrictive pericarditis, given the positional nature of the pain and the presence of a pericardial friction rub (the scratch-like sound heard over the left sternal border at end-expiration).
+   - The chest X-ray and E..."
+19,Diagnosis,False,Unknown,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - Altered mental status (somnolent but responsive when aroused)
+   - Alcoholic smell
+   - Slurred speech
+   - Diminished deep tendon reflexes bilaterally
+   - Ataxic gait
+   - Normal pupils
+   - Blood alcohol concentration of 0.04% (which is below the level of intoxication)
+
+2. **Evaluate Each Option Against the Context**:
+   - **Hypoglycemia**: The patient does not show classic symptoms of hypoglycemia such as confusion, seizures, or..."
+20,Diagnosis,False,D,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 77-year-old woman presenting with fever, malaise, night sweats, and axillary lymph node enlargement.
+   - She has a history of breast cancer treated with radiation and chemotherapy in her 60s.
+   - She has traveled extensively to Africa and has a 30-pack-year history of smoking.
+   - Physical examination reveals palpable axillary lymph nodes and a large non-tender mass in the right axilla.
+   - Fine-needle aspiratio..."
+21,Diagnosis,True,A,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The infant has symptoms of coughing, difficulty breathing during feeding, and appears less energetic and listless.
+   - A high-pitched holosystolic murmur is noted, which is best heard at the lower left sternal border.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: 22q11 deletion**
+     - This condition can present with congenital heart defects, including murmurs, and feeding difficulties due to neuromuscular pro..."
+22,Diagnosis,False,Unknown,C,"Reasoning: 
+
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with a dry cough, chest discomfort, headache, muscle aches, joint pain, fever, and chills. These symptoms suggest an acute respiratory illness.
+   - She recently hiked in Mississippi, which could indicate exposure to environmental pathogens.
+   - She has asthma and a history of smoking, which are risk factors for respiratory infections.
+   - The presence of wheezes on physical examination suggests involvement o..."
+23,Diagnosis,False,A,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient developed a fever and purulent cough one week after being hospitalized for a stroke.
+   - Physical examination revealed basal crackles on the right side of the chest.
+   - Chest radiography showed new consolidation on the right side.
+   - The complete blood count (CBC) showed elevated neutrophils (72%) and a left shift (4% bands), which suggests bacterial infection.
+   
+2. **Evaluate Each Option Against the Context**:
+  ..."
+24,Treatment,True,A,A,"Reasoning: 
+1. **Analyze the patient's symptoms/history**: The patient is a 6-year-old boy with a history of asthma and eczema, presenting with worsening wheezing and shortness of breath over the past day. He has missed his medications for the past week. On examination, he shows signs of respiratory distress including tachypnea, tachycardia, intercostal and subcostal retractions, and a decreased inspiratory to expiratory ratio. The initial treatment included nebulized albuterol, ipratropium, and..."
+25,Diagnosis,True,D,D,"Reasoning: 
+1. **Analyze the patient's symptoms/history**: The patient is a 5-year-old female with recurrent infections by Aspergillus species, Pseudomonas species, and Staphylococcus aureus. Additionally, her neutrophils fail to react during the nitroblue tetrazolium (NBT) test. This indicates a defect in the respiratory burst, as NBT testing is used to assess the ability of neutrophils to produce superoxide anions and other reactive oxygen species (ROS).
+
+2. **Evaluate each option**:
+   - **Im..."
+26,Diagnosis,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: 
+   - The patient is a 3-year-old boy presenting with a 'cough-like-a-seal bark' and a high-pitched inspiratory noise (stridor) that is audible without a stethoscope.
+   - He has worsening cough over the past few hours, sitting and leaning forward in apparent respiratory distress with suprasternal and intercostal retractions.
+   - On auscultation, there is inspiratory stridor without wheezing, and a frequent barking cough and hoarse voic..."
+27,Mechanism,True,A,A,"Reasoning: 
+1. The patient is a 26-year-old woman who has been taking oral contraceptives regularly but has now experienced a missed period despite being on an anti-TB regimen including rifampin, isoniazid, pyrazinamide, and ethambutol. This suggests that the anti-TB drugs may be affecting the efficacy of her oral contraceptive.
+2. Let's evaluate each option:
+
+   A: Induction of CYP3A4 by rifampin leading to decreased serum levels of ethinylestradiol and progesterone
+   - Rifampin is known to in..."
+28,Diagnosis,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient is a 4-year-old boy presenting with intermittent vomiting, bloody stools, decreased oral intake, and now lower extremity weakness and tingling.
+   - Physical examination reveals fever, hypertension, tachycardia, and diffuse abdominal tenderness without rebound or guarding.
+   - Ultrasound of the right lower quadrant is negative for appendicitis.
+   - Stool is guaiac positive, indicating possible gastrointestinal bleeding..."
+29,Treatment,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient is a 3-week-old male newborn with an inward turning of the left forefoot.
+   - The history includes a breech presentation and oligohydramnios during pregnancy.
+   - Physical examination reveals a concavity of the medial border of the left foot with a skin crease just below the ball of the great toe, a convex lateral border, and a heel in neutral position.
+   - The deformity can be corrected by tickling the lateral border..."
+30,Diagnosis,False,Unknown,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with right upper abdominal pain and nausea for 2 days.
+   - Physical examination reveals a distended abdomen and right upper quadrant tenderness.
+   - Lab results show slightly elevated AST (32 U/L), ALT (40 U/L), and alkaline phosphatase (68 U/L), but within normal ranges.
+   - The patient has a BMI of 34 kg/m², indicating obesity, which can contribute to various gastrointestinal issues.
+   
+2. **Evaluate Each ..."
+31,Diagnosis,False,A,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 72-year-old woman admitted to the ICU with shortness of breath and palpitations. These symptoms suggest a condition that could lead to acute decompensation of the heart, such as mitral valve regurgitation, which can cause rapid fluid accumulation and heart failure. However, the presence of a pressure-volume loop (PVL) from a cardiac catheterization is crucial for making the correct differential diagnosis.
+
+2. **Evaluate ..."
+32,Diagnosis,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with fever, intermittent rigors, night sweats, and progressive fatigue. These symptoms suggest a systemic infection or an underlying hematologic disorder.
+   - The presence of pallor and scattered petechiae and ecchymoses indicates possible thrombocytopenia or disseminated intravascular coagulation (DIC).
+   - The laboratory findings show a low hemoglobin concentration (9.0 g/dL), a low leukocyte count (1,100/mm..."
+33,Diagnosis,False,A,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with upper abdominal pain, nausea, vomiting, and diarrhea over a 6-month period.
+   - There is significant weight loss (3.2 kg or 7 lbs).
+   - Bilateral pitting pedal edema is noted.
+   - Endoscopy shows prominent rugae in the gastric fundus.
+   - Biopsy reveals parietal cell atrophy.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Serotonin-secreting gastric tumor**
+     - Carcinoids can secr..."
+34,Treatment,False,D,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient is a known IV drug abuser and attends a methadone clinic, indicating potential opioid withdrawal or overdose.
+   - The initial presentation includes hypotension (97/48 mmHg), tachycardia (140/min), and hyperglycemia (589 mg/dL).
+   - The patient's K+ level is initially elevated (6.3 mEq/L), suggesting hyperkalemia.
+   - The patient's HCO3- level is low (17 mEq/L), indicating metabolic acidosis.
+   - The patient's glucose..."
+35,Diagnosis,True,A,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient has had arthritis for 16 years.
+   - Current symptoms include right knee swelling and pain, difficulty walking due to bilateral knee involvement, back pain, and dandruff.
+   - Pain improves with rest.
+   - Pitting of the nails is noted on physical examination.
+   - Dandruff and nail changes suggest a possible skin condition.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Psoriatic arthritis**: This condition of..."
+36,Diagnosis,False,Unknown,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 65-year-old woman presenting with weight loss and weakness.
+   - The weakness is more noticeable when climbing stairs and combing hair, and improves after brief exercise.
+   - She has had bladder incontinence for the past 4 weeks, which did not improve with an anticholinesterase agent.
+
+2. **Evaluate Each Option Against the Context**:
+
+   - **Option A: Duchenne Muscular Dystrophy**
+     - Duchenne muscular dystrophy..."
+37,Diagnosis,False,D,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 3-month-old boy presenting with persistent diarrhea, oral candidiasis, and signs and symptoms suggestive of RSV pneumonia. Additionally, he has a low weight-for-age, indicating potential underlying immunodeficiency. The laboratory results for HIV are negative by PCR, ruling out HIV as the cause of his symptoms.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Defective T cell function**
+     - This woul..."
+38,Treatment,False,C,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 53-year-old man with recurrent pancreatic adenocarcinoma. The focus is on the therapeutic index of the novel chemotherapeutic agent being evaluated in the clinical trial.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: 0.375**
+     - This value does not align with the typical therapeutic index values observed in clinical trials. Therapeutic indices are usually expressed as the ratio of the median letha..."
+39,Diagnosis,True,A,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 67-year-old male who experienced strange speech after a stroke treated with tPA.
+   - He is fluent while speaking and can comprehend both one and two-step instructions.
+   - However, he remains unable to complete tasks involving verbal repetition.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Arcuate Fasciculus**
+     - The arcuate fasciculus connects Broca's area and Wernicke's area, facilitati..."
+40,Diagnosis,False,Unknown,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - **Age and Long-term Concerns**: The patient is 27 years old and has had concerns about her physical appearance since adolescence.
+   - **Facial Hair and Acne**: She has unwanted facial hair on her upper lip and severe inflammatory acne over the cheeks and forehead.
+   - **Weight and Family History**: She is overweight (BMI = 32.7 kg/m²) and has a family history of type 2 diabetes mellitus.
+   - **Menstrual Cycle**: Her menstrual cyc..."
+41,Diagnosis,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with tingling and numbness in the lower limbs for 2 weeks, persistent leg pain, decreased sensation to pain in both lower limbs, and an ABPI of 1.1 on the right side, indicating potential peripheral arterial disease (PAD).
+   - The patient has poorly controlled type 2 diabetes mellitus, with fasting blood sugar of 141 mg/dL, 2-hour post-prandial blood sugar of 235 mg/dL, and HbA1c of 8.1%, indicating poor glycem..."
+42,Diagnosis,True,A,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - Bilious vomiting: This suggests obstruction higher up in the gastrointestinal tract, such as the duodenum or proximal small intestine.
+   - Urinated multiple times since birth but no meconium passed: This indicates that the obstruction is above the colon.
+   - Normal gestational age (38 weeks): This rules out some conditions that are more common in preterm infants.
+   - No significant history of prematurity or other risk factors for..."
+43,Mechanism,False,Unknown,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a healthy 23-year-old male undergoing an exercise stress test. Exercise typically increases heart rate and cardiac output, leading to increased blood flow through the circulatory system. This means that the blood leaving the heart during exercise will have a higher oxygen content than when at rest due to the increased demand for oxygen by the working muscles.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Inferio..."
+44,Diagnosis,False,B,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient has increasingly heavy periods, soaking one super absorbent tampon every two hours for five days each cycle.
+   - Her cycles have become irregular, with intermenstrual bleeding for the last two months.
+   - She experiences significant dysmenorrhea, requiring 400 mg ibuprofen every four hours during menstruation.
+   - New onset mild dyspareunia with intercourse and a ""heavy feeling"" in her pelvis.
+   - Increased urinary f..."
+45,Treatment,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient has a history of public alcohol intoxication and recent homelessness.
+   - On examination, he is behaving erratically, confused, and has slurred speech.
+   - His gait exam shows ataxia, indicating a neurological issue.
+   - Laboratory results show normal electrolytes (Na 140, K 4, Cl 106), normal renal function (BUN 8, Cr 2), and a metabolic acidosis (pH 7.3, PaCO2 13, HCO3 7).
+   - Urinalysis suggests a positive result ..."
+46,Treatment,True,C,C,"Reasoning: 
+1. **Analyze the patient's symptoms/history**: The primary endpoint of the study is death from cardiac causes. We need to calculate the number needed to treat (NNT) for this endpoint. NNT is calculated as the inverse of the absolute risk reduction (ARR), which is the difference in the event rate between the treatment group and the control group.
+
+2. **Calculate the event rates**:
+   - Event rate for Medication 1: \( \frac{134}{1500} = 0.0893 \)
+   - Event rate for Medication 2: \( \f..."
+47,Diagnosis,False,Unknown,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient has a 6-week history of tingling pain in the sole of his right foot when raising it above chest level during exercises.
+   - He experiences calf cramps on the treadmill, especially when using the incline feature.
+   - The pain subsides after resting for a few minutes.
+   - He has an 8-year history of type 2 diabetes mellitus and a smoking history of 34 years.
+   - Physical examination reveals pallor and tingling pain in ..."
+48,Diagnosis,False,Unknown,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 29-year-old primigravid woman at 35 weeks' gestation.
+   - The fetus was found to have no detectable heartbeats on fetal Doppler monitoring.
+   - Ultrasound showed decreased amniotic fluid levels and no evidence of fetal movement, respiration, or heart activity.
+   - The newborn was stillborn with a weight of 2296 g (5 lb 1 oz).
+   - Physical examination of the infant showed no signs of life.
+   - There were no visi..."
+49,Mechanism,False,D,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient presented with fever, shortness of breath, and worsening respiratory status despite antiviral treatment for influenza A. Chest radiography showed bilateral infiltrates, and clinical criteria were consistent with Acute Respiratory Distress Syndrome (ARDS). This indicates significant lung damage and subsequent repair mechanisms are likely to be active.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Sweeping ..."
+50,Mechanism,True,D,D,"Reasoning: 
+1. **Analyze the patient's symptoms/history**: The patient is being treated for anal carcinoma with external beam radiation. This information is not directly relevant to the mechanism of action of radiation on cancer cells but provides context for the type of treatment being administered.
+
+2. **Evaluate each option against the context**:
+   - **Option A: Induces the formation of thymidine dimers**
+     - Thymidine dimers are a type of DNA damage caused by UV light, not by ionizing ra..."
+51,Diagnosis,True,A,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with progressive fatigue and new-onset muscle cramps.
+   - There have been no recent changes to his medication regimen, which includes hydrochlorothiazide, lisinopril, and amlodipine.
+   - His blood pressure is 174/111 mmHg, indicating significant hypertension.
+   - His electrolytes show hypokalemia (K+ 3.3 mEq/L) and metabolic alkalosis (HCO3- 33 mEq/L).
+
+2. **Evaluate Each Option Against the Context**:
+   - **..."
+52,Diagnosis,False,Unknown,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient presents with jaundice, scleral icterus, and pruritus. Urinalysis shows an elevated concentration of bilirubin and a low concentration of urobilinogen. These findings suggest a problem with bilirubin metabolism or excretion.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Absent UDP-glucuronosyltransferase activity**
+     - Context: Absent UDP-glucuronosyltransferase activity leads to a failure in conjugati..."
+53,Treatment,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 72-year-old woman with a 6-month history of worsening short-term memory deficits and social withdrawal. These symptoms suggest cognitive impairment, which could be indicative of Alzheimer's disease or other forms of dementia. The initiation of treatment with galantamine (an acetylcholinesterase inhibitor used to treat Alzheimer's disease) and subsequent development of gastrointestinal symptoms (vomiting, crampy abdominal..."
+54,Diagnosis,True,A,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 61-year-old man with schizophrenia who has been on haloperidol for several months.
+   - He started exhibiting unusual lip smacking, pursing of the lips, and excessive blinking about 2 weeks ago.
+   - These symptoms have become more pronounced over time.
+   - The patient does not find these symptoms bothersome.
+   - Physical examination and vital signs are within normal limits.
+
+2. **Evaluate Each Option Against the ..."
+55,Diagnosis,False,Unknown,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: 
+   - The patient is a 17-year-old football player with no significant past medical history, social history, or family history.
+   - He presents with itching in the groin area, which started during summer workouts.
+   - On physical examination, there is an erythematous, well-demarcated patch with peripheral scale on the left thigh, pubic region, and perineum. There is no apparent scrotal involvement with the rash.
+   
+2. **Evaluate Each ..."
+56,Treatment,True,C,C,"Reasoning: 
+1. **Analyze the patient's symptoms/history**: The patient is a 26-year-old man who has been diagnosed with schizophrenia and is starting risperidone therapy. Risperidone is an atypical antipsychotic known for several side effects, including metabolic changes, extrapyramidal symptoms, and endocrine disturbances.
+
+2. **Evaluate each option against the context**:
+   - **A: Agranulocytosis**: Risperidone does not commonly cause agranulocytosis. This condition is more associated with cer..."
+57,Diagnosis,False,C,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: 
+   - The patient presents with fever, altered mental status, petechial rash, nausea, vomiting, and heavy menstrual bleeding. These symptoms suggest a systemic infection or a condition that affects multiple organ systems, such as sepsis or a hematologic disorder.
+   - The presence of a tampon in the vagina during a pelvic examination is significant, as it could indicate a source of infection or a hematologic condition.
+
+2. **Evaluate Eac..."
+58,Diagnosis,False,Unknown,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient is a 2-year-old boy with pallor and increasing lethargy for 2 days.
+   - One week ago, he had abdominal pain, vomiting, and bloody diarrhea, which have since subsided.
+   - He has a history of travel to Mexico, which suggests a possible infectious etiology.
+   - Physical examination reveals pallor, tachycardia, tachypnea, and hypotension.
+   - Laboratory findings include:
+     - Anemia (low hemoglobin, low mean corpuscul..."
+59,Diagnosis,False,C,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient has a history of dental caries, which suggests poor oral health.
+   - She admits to regularly inducing vomiting by putting her fingers down her throat, indicating purging behavior.
+   - She feels she is gaining weight compared to her'skinny friends', suggesting a distorted body image.
+   - Her BMI is at the 50th percentile for her age and sex, which is within the normal range and does not indicate underweight or overweig..."
+60,Diagnosis,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient has fever, chills, abdominal pain, and profuse non-bloody diarrhea.
+   - She had low-grade fever and constipation a week ago.
+   - She recently returned from Indonesia, where she spent the summer with her grandparents.
+   - Physical examination shows diffuse abdominal tenderness and mild hepatosplenomegaly.
+   - There is a faint salmon-colored maculopapular rash on her trunk and abdomen.
+
+2. **Evaluate Each Option Agains..."
+61,Treatment,True,A,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient experienced facial flushing, nausea, tachycardia, dyspnea, headache, and abdominal cramps after consuming alcohol. These symptoms are consistent with a disulfiram-like reaction, which is commonly associated with acetaldehyde accumulation due to its toxic effects when alcohol is consumed.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Acetaldehyde**: Acetaldehyde is the primary metabolite of ethanol (alcohol) that ca..."
+62,Diagnosis,False,Unknown,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: 
+   - The patient is a 23-year-old primigravida at 16 weeks gestation.
+   - She complains of increased fatigability.
+   - She is taking folic acid, iron, and vitamin D supplements.
+   - Physical examination and complete blood count (CBC) results are unremarkable except for the following:
+     - Erythrocyte count: 3.9 million/mm³ (normal range: 4.2-5.4 million/mm³)
+     - Hemoglobin (Hb): 11.1 g/dL (normal range: 12-15 g/dL)
+     - Hemato..."
+63,Treatment,True,A,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient is an 80-year-old man who recently underwent hernia surgery.
+   - He has not passed urine since pre-treatment with atropine, scopolamine, and morphine, and recovery in the PACU.
+   - Physical examination shows no signs of infection or other significant pathology.
+   - The patient mentions some discomfort in his abdomen and pelvis.
+   - A bladder scan is inconclusive due to body habitus.
+
+2. **Evaluate Each Option Against..."
+64,Diagnosis,False,C,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient presents with painless ""blisters"" in the mouth, a white film on the tongue and sides of the mouth, and a bitter metallic taste.
+   - The white pseudomembranes can be wiped away to reveal erythematous mucosa.
+   - The patient is a competitive swimmer and has had multiple sexual partners, suggesting potential exposure to pathogens.
+   - These symptoms are consistent with oral candidiasis, commonly caused by Candida albican..."
+65,Diagnosis,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: 
+   - The patient is a 56-year-old man with subacute back pain that has been present for about a month.
+   - The pain is described as a dull, constant ache and is worse at night.
+   - There is no specific trauma or precipitating event other than participation in an amateur weight-lifting competition 2 months ago.
+   - His past medical history includes non-small cell lung cancer (NSCLC) that was successfully treated, with no recurrence no..."
+66,Treatment,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 4-year-old boy with severe abdominal pain, bilious vomiting, no bowel movements in the past 24 hours, and a distended abdomen. Physical examination reveals tenderness, guarding, and rebound tenderness, along with decreased bowel sounds. An x-ray of the abdomen shows dilated loops of bowel. These findings suggest a possible bowel obstruction or perforation, conditions that require urgent surgical intervention.
+
+2. **Evalu..."
+67,Diagnosis,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 3-week-old male newborn with poor weight gain since birth.
+   - He was born at term via normal vaginal delivery and weighed appropriately at birth but has lost weight since then.
+   - He is irritable, diaphoretic, and has a paucity of subcutaneous fat.
+   - There is swelling of the neck at the midline.
+   - The mother has a history of Graves' disease and underwent a near-total thyroidectomy in the second trimester o..."
+68,Treatment,False,Unknown,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: 
+   - The patient presents with bright red blood vomited and black and tarry stools, indicating upper gastrointestinal bleeding.
+   - The presence of splenomegaly and a positive fluid wave suggests portal hypertension, a common cause of such bleeding.
+   - Endoscopy revealed bleeding from the submucosal veins in the lower 1/3 of the esophagus, consistent with esophageal varices, a complication of portal hypertension.
+   
+2. **Evaluate Ea..."
+69,Diagnosis,False,Unknown,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient is a 65-year-old man with a history of hypertension, obesity, and alcoholic cirrhosis.
+   - He drinks 5 glasses of wine each night, indicating ongoing alcohol use.
+   - Physical examination findings include spider angiomas, suggesting chronic liver disease.
+   - Imaging studies show a 2 cm right hepatic lobe lesion with enhancement in the arterial phase but no hypodense attenuation on the venous or delayed phase.
+
+2. **E..."
+70,Diagnosis,True,A,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 66-year-old man with a history of alcoholic liver cirrhosis.
+   - He presents with abdominal distension, somnolence, and altered mental status.
+   - Physical examination reveals significant abdominal distension, shifting dullness, and a positive fluid wave, indicating ascites.
+   - Laboratory findings show hyperchloremic metabolic acidosis (low chloride, high HCO3), suggesting a metabolic disturbance.
+   - There is ..."
+71,Diagnosis,True,A,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient was involved in a motor vehicle collision and is now experiencing chest pain, which is a common symptom of cardiac contusion.
+   - The ECG shows sinus tachycardia, which can be seen in various conditions but is more commonly associated with hemodynamic stress or pain.
+   - The patient has an elevated pulmonary capillary wedge pressure and elevated troponins, indicating possible myocardial injury or strain.
+   - There is ..."
+72,Treatment,False,Unknown,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient presents with progressive symptoms including fatigue, malaise, fever, abdominal pain, and diarrhea, along with signs of liver dysfunction such as scleral icterus, hepatomegaly, ascites, and diffuse abdominal tenderness.
+   - He has a history of alcohol use disorder, cirrhosis, and intravenous drug use, which are risk factors for liver disease.
+   - The patient has developed sepsis secondary to Escherichia coli infection ..."
+73,Treatment,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - **Weight Loss:** Unintentional weight loss of 6.8 kg over several months.
+   - **Temperature Sensitivity:** Feuds with her boyfriend over the temperature of their shared apartment, indicating a sensitivity to temperature changes.
+   - **Physical Exam Findings:**
+     - Warm and slightly moist skin.
+     - Fine tremor in her hands when her arms are outstretched.
+   - **Urine Pregnancy Test:** Negative.
+
+2. **Evaluate Each Option Agai..."
+74,Diagnosis,False,Unknown,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with pruritus and a hypopigmented rash on his upper body, which started as a single lesion on his upper back and has extended to his shoulders.
+   - The rash developed after a business trip to the Bahamas, where he visited beaches and hiked.
+   - He has a history of type 1 diabetes mellitus, which is well-controlled.
+   - He has had multiple sexual partners and inconsistent condom use.
+   - The rash is not assoc..."
+75,Diagnosis,False,D,A,"Reasoning: Let's analyze the patient's symptoms and history step-by-step:
+
+1. **Patient's Symptoms/History**:
+   - Verbalizing only two-word sentences
+   - Generalized developmental delay
+   - High-pitched mewing cry at birth
+   - Microcephaly
+   - Prominent epicanthal folds
+   - Holosystolic murmur in the left 5th intercostal space near the sternum
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Chromosome 5**
+     - The context for chromosome 5 does not provide any specific ..."
+76,Diagnosis,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 62-year-old female with vaginal spotting and urinary urgency for the past 4 days.
+   - She has no fever, abdominal pain, or diarrhea.
+   - Menopause occurred at 52 years of age.
+   - Her last Pap smear 1 year ago was normal.
+   - She has hypertension, hypercholesterolemia, and diabetes.
+   - She is sexually active with her husband.
+   - Physical examination reveals a 4 x 3 cm firm, immobile erythematous mass on the ..."
+77,Diagnosis,False,C,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with progressive joint pain, swelling, and tenderness over the first, second, and third metacarpophalangeal joints of both hands.
+   - He also has diabetes mellitus that is poorly controlled.
+   - Hand radiographs are not described, but the presence of joint pain and swelling suggests an inflammatory process.
+   - Lab studies show high transferrin saturation (88%) and high serum ferritin (1,200 ng/mL). Elevated ..."
+78,Diagnosis,False,B,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The newborn is extremely cyanotic immediately after birth.
+   - Progressive respiratory failure.
+   - A single loud S2 heart sound and a machine-like murmur at the left upper sternal border.
+   - Enlarged ""egg-shaped"" heart on radiography.
+   - Required an atrial septostomy to alleviate the condition pending surgical correction.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Coarctation of the Aorta**: Typically presents w..."
+79,Treatment,False,Unknown,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: 
+   - The patient is a 25-year-old male who sustained a penetrating wound to the chest during a knife fight.
+   - He is unconscious, hypotensive (BP 85/55 mm Hg), tachycardic (HR 115/min), and has a low oxygen saturation (92% on room air).
+   - Physical examination reveals a diaphoretic, unresponsive state, pale and cold extremities, and a 3-inch long penetrating wound between the 3rd and 4th intercostal space on the left side of the che..."
+80,Diagnosis,False,C,B,"Reasoning: 
+1. **Analyze the patient's symptoms/history**:
+   - The patient is a 68-year-old male with an overweight body type, a 60-pack year smoking history, and a daily productive cough. These factors suggest a history of chronic obstructive pulmonary disease (COPD) or other chronic respiratory conditions.
+   - Additionally, there is evidence of chronic lower extremity edema, which could indicate heart failure or chronic venous insufficiency.
+   
+2. **Evaluate each option against the context*..."
+81,Diagnosis,False,C,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient presents with chronic fatigue and enlarged nodules that are not tender to palpation. These symptoms could suggest a variety of conditions, but the key detail is the ""characteristic change in chromosome 18"" noted on biopsy. This specific genetic alteration is crucial for identifying the underlying disease process.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Caspase-9**: Caspase-9 is involved in the apoptotic pathw..."
+82,Diagnosis,False,D,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 44-year-old African-American woman.
+   - She has a family history of metastatic melanoma.
+   - She has no history of serious illness or medication use.
+   - She works in a law firm and travels to the Caribbean regularly.
+   - On examination, there are no abnormal moles or warts noted.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Desmoplastic**: This type of melanoma is rare and typically presents as an a..."
+83,Diagnosis,True,A,A,"Reasoning: Let's analyze the patient's symptoms and history step-by-step:
+
+1. **Patient's Symptoms and History**:
+   - Difficulty combing her hair in the mornings.
+   - Stiff neck.
+   - Bilateral shoulder tenderness.
+   - No other specific symptoms mentioned.
+
+2. **Evaluate Each Option**:
+
+   **A: Jaw claudication**
+   - Jaw claudication involves pain in the jaw during chewing, which is not present in this patient.
+   - The patient does not have any symptoms related to chewing or jaw pain.
+   
+ ..."
+84,Mechanism,False,Unknown,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient has been unable to conceive for 3 years despite normal semen analysis of her husband.
+   - She experiences episodic pelvic and back pain accompanied by painful diarrhea for 5 years, occurring on average once per month for 4-6 days.
+   - Her menstrual cycles are regular (29-day intervals) and last for 7 days.
+   - She has taken ibuprofen for pain relief, which provides some relief.
+   - Hysterosalpingogram results were no..."
+85,Diagnosis,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 55-year-old truck driver who developed a fever and weakness 3 days ago.
+   - He has a history of tricuspid valve replacement surgery 1 year ago, myocardial infarction 3 years ago, and hypertension for the past 10 years.
+   - He currently takes aspirin and lisinopril.
+   - Physical examination reveals several hemorrhages on the nail beds of several fingers.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Opt..."
+86,Diagnosis,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient reports pain during sexual intercourse (dyspareunia) for 6 months and crampy pelvic pain before menstruation lasting 7 days.
+   - Her menses occur regularly every 28 days and last 5 days.
+   - Rectovaginal tenderness on physical examination.
+   - Negative cervical and urethral swabs.
+   - Transvaginal ultrasound showing no abnormalities.
+   
+2. **Evaluate Each Option Against the Context:**
+   - **Measurement of CA-125 le..."
+87,Treatment,False,Unknown,C,"Reasoning: 
+
+1. **Analyze the patient's symptoms/history:**
+   - The patient is a 50-year-old man who has not sought medical care for 20 years but is now concerned due to a colleague's heart attack.
+   - He leads a sedentary lifestyle, does not exercise regularly, and has a family history of heart disease (father had a heart attack at age 54).
+   - His physical examination is unremarkable, and there are no active complaints or significant findings.
+   - His vital signs are within normal limits, ..."
+88,Diagnosis,False,Unknown,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is lethargic and incoherent, indicating possible hypoxia or intracranial injury.
+   - Severe facial lacerations suggest blunt trauma.
+   - Respiratory distress, tachypnea, and hypotension (90/58 mm Hg) are present, indicating significant respiratory compromise.
+   - Dullness to percussion and decreased breath sounds over the left lung base suggest a pneumothorax or other lung injury.
+   - Abdominal examination shows diff..."
+89,Treatment,False,A,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient is a 26-year-old G1P0 woman presenting with anxiety, trouble sleeping, palpitations, and fatigue.
+   - She is 10 weeks pregnant and being closely followed by her obstetrician.
+   - Physical examination reveals a diffusely enlarged thyroid gland with bruits.
+   - Laboratory studies show a low TSH (0.01 µU/mL) and an elevated FT4, which is inappropriate for her pregnancy.
+   
+2. **Evaluate Each Option Against the Context:*..."
+90,Diagnosis,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient has intermittent loose stools and significant weight loss over 3 weeks.
+   - She immigrated to the US from Uganda 6 weeks ago.
+   - Physical examination findings include diffuse abdominal tenderness, hepatomegaly, and splenomegaly.
+   - Laboratory results show an elevated white blood cell count with eosinophilia (12%).
+   - Stool culture shows several oval-shaped eggs with lateral spines.
+   - Liver biopsy shows granulom..."
+91,Diagnosis,False,D,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient is a 3-month-old girl with central cyanosis, no signs of respiratory distress, and no signs of heart failure.
+   - An echocardiogram revealed severe pulmonary outflow obstruction, right ventricular hypertrophy, a ventricular septal defect, and an overriding of the aorta, consistent with tetralogy of Fallot (TOF).
+
+2. **Evaluate Each Option Against the Context:**
+   - **Option A:** ""The tricuspid valve is the most common ..."
+92,Diagnosis,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 79-year-old woman who recently underwent surgery for a hip fracture.
+   - She is currently agitated and confused, with fluctuating levels of consciousness (unarousable during the day, awake and impulsive at night).
+   - She has a history of drinking one to two glasses of wine weekly.
+   - She is taking oxycodone for pain.
+   - Her vital signs are within normal limits.
+   - She is distressed and oriented to person bu..."
+93,Diagnosis,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 54-year-old woman with a past medical history of mental retardation, hypertension, and diabetes.
+   - She presented with sudden ataxia, decreased responsiveness, and new-onset spasticity.
+   - There is also a positive Babinski sign, indicating upper motor neuron involvement.
+   - Bilateral hand swelling and deformities suggest musculoskeletal involvement.
+   - A ""clunk"" on cervical spine manipulation suggests possib..."
+94,Diagnosis,False,D,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient sustained a stab wound to the left chest, presenting with rapid, shallow breathing, tachycardia, hypotension, and muffled heart sounds on examination.
+   - The presence of muffled heart sounds and jugular venous distention suggests possible hemothorax or pneumothorax, leading to decreased cardiac output and respiratory compromise.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Tracheal deviation towar..."
+95,Diagnosis,False,A,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 40-year-old man with poorly controlled hypertension on multiple medications.
+   - He has palpable flank masses bilaterally.
+   - His creatinine level is elevated at 2.5, indicating possible kidney dysfunction.
+   - His father had a kidney transplant in his forties, suggesting a genetic predisposition to kidney disease.
+   
+2. **Evaluate Each Option Against the Context**:
+   - **Colonoscopy**: This procedure is used ..."
+96,Diagnosis,False,C,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient is a 17-year-old female presenting with shortness of breath, chest pain that worsens with breathing or coughing, and hemoptysis (blood in sputum).
+   - These symptoms suggest a condition affecting the lungs or pulmonary vasculature, such as a pulmonary embolism (PE).
+
+2. **Evaluate Each Option Against the Context:**
+   - **Autosomal Dominant:** This mode of inheritance involves one dominant allele masking the effect of t..."
+97,Mechanism,True,B,B,"Reasoning: 
+1. **Analyze the patient's symptoms/history**: The patient presented with symptoms of a urinary tract infection (UTI), including burning with urination, penile discharge, and intermittent fevers. These symptoms are consistent with a bacterial infection, specifically a sexually transmitted infection (STI). The presence of gram-negative diplococci within white blood cells and growth on Thayer-Martin agar suggests Neisseria gonorrhoeae, a common cause of these symptoms.
+2. **Evaluate ea..."
+98,Treatment,False,D,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 37-year-old man who was rear-ended in a motor vehicle accident and reports significant neck pain. He denies any weakness, numbness, or tingling in his extremities. His vital signs are within normal limits, indicating no immediate life-threatening conditions. The absence of neurological deficits suggests that there may not be significant spinal cord injury at this point.
+
+2. **Evaluate Each Option Against the Context**:
+ ..."
+99,Treatment,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient has a history of schizophrenia, currently controlled with medication.
+   - He is experiencing abnormal nipple discharge (white fluid) and a diminished sexual drive.
+   - These symptoms are suggestive of hyperprolactinemia, which can be caused by certain antipsychotic medications.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Haloperidol**: The context indicates that haloperidol can be used to control symptoms ..."
+100,Diagnosis,False,B,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient is a 2-day-old male newborn with jaundice.
+   - Jaundice is present for 16 hours.
+   - There is no history of sickling in the patient.
+   - The patient's 4-year-old brother has sickle cell disease, which is unrelated to the current presentation.
+   - The maternal blood group is O, Rh-negative, and anti-Rh antibody titer is positive.
+   - The fetal blood group is B, Rh-negative.
+   - Laboratory studies show elevated bilir..."
+101,Diagnosis,False,C,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient presents with gradually worsening rigidity of his arms and legs, slowness in performing tasks, hand tremors that increase at rest and decrease with focused movements, and a shuffling gait without arm swing while walking. These symptoms are characteristic of Parkinson's disease (PD).
+
+2. **Evaluate Each Option Against the Context**:
+   - **Amantadine**: This is an antiviral drug used to treat influenza and Parkinson's disease...."
+102,Treatment,False,D,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient has been given prophylactic labetalol and magnesium sulfate. The examination shows absent deep tendon reflexes bilaterally. Absent deep tendon reflexes can indicate a significant drop in blood pressure or other neurological effects, particularly when both prophylactic medications are involved.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Stop magnesium sulfate and give calcium gluconate**
+     - Magnesiu..."
+103,Diagnosis,False,Unknown,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient presents with altered mental status, hypothermia (33.0°C), bradycardia (40/min), hypotension (80/50 mm Hg), and respiratory distress (85% on room air).
+   - Physical examination reveals decorticate posturing, incomprehensible speech, eyes opening to pain, dry hair, coarse and waxy skin, and non-pitting edema around the face and all extremities.
+   - Laboratory results show hypocalcemia (9.0 mg/dL), anemia (hematocrit 34%..."
+104,Diagnosis,False,Unknown,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with increasing shortness of breath over the last 3 months, particularly during physical activity (mowing the lawn or climbing stairs). This suggests a progressive nature of the condition.
+   - The patient has a history of well-controlled hypertension.
+   - Physical examination reveals an early diastolic blowing, decrescendo murmur heard best at the left sternal border, a midsystolic murmur heard best at the rig..."
+105,Diagnosis,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient attempted suicide after a fight with her boyfriend, indicating a history of tumultuous relationships.
+   - She has a history of manipulating people’s feelings, which is a hallmark of BPD.
+   - She alternates between sobbing and anger, suggesting mood instability and emotional dysregulation, also common in BPD.
+   - She has spit at several staff members, indicating impulsive and aggressive behavior, which can be seen in B..."
+106,Diagnosis,False,A,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient is a 50-year-old man with no significant symptoms such as pain, constipation, or changes in diet.
+   - He has no history of smoking, alcohol, or drug use.
+   - The only concerning finding was an opacification in the right middle lobe on chest radiography, which progressed to an 8 mm nodule on initial CT, and remained stable at 10 mm on follow-up CT.
+   - The nodule is described as having regular margins and being calcifi..."
+107,Diagnosis,True,A,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 29-year-old man with infertility.
+   - He has physical characteristics such as tall stature, long extremities, sparse body hair, gynecomastia, and small testes.
+   - Laboratory studies show increased serum follicle-stimulating hormone (FSH) concentration and an increased estradiol:testosterone ratio.
+   - Genetic studies reveal a cytogenetic abnormality that was inherited from the father.
+
+2. **Evaluate Each Option ..."
+108,Treatment,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 13-year-old boy presenting with severe knee, hip, and groin pain, unable to bear weight on his left leg, and limited range of motion of the left hip. These symptoms suggest a possible hip dislocation or other serious musculoskeletal injury, given the age and the nature of the pain and limitation of movement.
+   
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Casting and Crutches**
+     - Casting is typ..."
+109,Diagnosis,False,Unknown,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient presents with diarrhea (up to 4 bowel movements per day), crampy abdominal pain, and mucoid strings in the stool.
+   - There is a significant weight loss (3.2 kg over a month).
+   - The patient has a history of a painful rash on the lower extremity that resolved spontaneously.
+   - No fever, cough, or bloody stools.
+   - Physical examination reveals a soft and nontender abdomen.
+   - Laboratory findings include a low hem..."
+110,Diagnosis,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient presents with fever, abdominal pain, confusion, and a history of hepatitis C and recurrent pancreatitis.
+   - Physical examination reveals scleral icterus, spider angiomas, and bilateral hand tremors, suggesting liver disease.
+   - Laboratory findings include hypoalbuminemia, elevated total bilirubin, and low albumin in ascitic fluid, consistent with liver dysfunction.
+   - The presence of shifting dullness and absence o..."
+111,Treatment,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient is an 18-month-old girl with a history of a runny nose, low-grade fever, hoarseness, and a rough-sounding cough that started this afternoon.
+   - She began making high-pitched sounds (stridor) when taking breaths, indicating possible airway obstruction.
+   - Her respiratory rate is elevated (50/min), and she has mild pharyngeal erythema without exudate.
+   - The presence of stridor, especially worsening with crying, sugg..."
+112,Mechanism,False,C,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient complains of retrosternal burning associated with eating, which has persisted for several years and has worsened. This symptom is characteristic of heartburn, a common symptom of gastroesophageal reflux disease (GERD). Additionally, she reports episodic hand pain worse in the winter and a chronic severe cough with dyspnea attributed to smoking. These symptoms do not directly align with the pathophysiology of achalasia or esop..."
+113,Treatment,False,Unknown,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient is a 67-year-old man with chronic kidney disease, poorly-controlled type 2 diabetes mellitus, and symptoms of worsening fatigue and shortness of breath on exertion.
+   - Laboratory findings indicate anemia (low hemoglobin, low mean corpuscular volume, low reticulocyte count), elevated ferritin, and normal urea nitrogen but elevated creatinine, suggesting renal impairment.
+   - The symptoms and laboratory findings suggest..."
+114,Diagnosis,False,B,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with muscle cramping, decreased appetite, and diarrhea, which are nonspecific symptoms but could be related to dehydration.
+   - The patient has a history of obesity, sleep apnea, type 2 diabetes, and gastroesophageal reflux disease (GERD).
+   - The basic labs show hypokalemia (low sodium and chloride levels) and metabolic acidosis (low bicarbonate and pH, low pCO2).
+
+2. **Evaluate Each Option Against the Contex..."
+115,Mechanism,False,C,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The context does not provide specific symptoms or history related to the patient, but rather focuses on the mechanism of myosin-actin interactions in muscle tissue. The key point here is the identification of a drug that selectively inhibits phosphate release by the myosin head.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Myosin head cocking** - This step involves the conformational change of the myosin head after ..."
+116,Diagnosis,True,C,C,"Reasoning: Let's analyze the patient's symptoms and history step-by-step and evaluate each option against the provided context.
+
+1. **Seizure Disorder and Cognitive Delay**: These symptoms are not directly linked to any of the diseases described but can be associated with various genetic syndromes.
+
+2. **Progressively Worsening Right Lower Extremity Weakness**: This suggests a progressive neurological disorder affecting the right side of the body.
+
+3. **Holosystolic Murmur at the Cardiac Apex**:..."
+117,Diagnosis,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with abdominal pain, nausea, and vomiting, along with diffuse abdominal tenderness.
+   - He has a history of diabetic nephropathy, hypertension, dyslipidemia, depression, and morbid obesity.
+   - He is currently being treated for an outbreak of genital herpes.
+   - His laboratory values show hypokalemia (normal K+ but low HCO3-), metabolic acidosis (low HCO3-), hyperglycemia, and elevated creatinine.
+
+2. **Evalu..."
+118,Diagnosis,False,Unknown,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 56-year-old former construction worker who worked in a steel mill and has a 36-pack-year smoking history.
+   - He presents with a 1-year history of worsening shortness of breath and weight loss.
+   - Physical examination findings include a mildly prolonged expiratory phase but no wheezing or crackles.
+   - Pulmonary function tests show an FEV1/FVC ratio of 60%, FEV1 of 50% of the predicted value, and a DLCO of 60% o..."
+119,Diagnosis,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 25-year-old zookeeper who takes care of various types of birds.
+   - Symptoms include a dry cough, fever, chills, fatigue, and episodic episodes at the end of the workday lasting a few hours.
+   - There is a family history of childhood asthma.
+   - Chest X-ray shows diffuse haziness in both lower lung fields.
+   - PPD skin test is negative.
+   
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Thorac..."
+120,Treatment,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: 
+   - The patient is a 60-year-old female who had menopause 10 years ago.
+   - She presents with vaginal bleeding and an enlarged uterus.
+   - Biopsy revealed neoplastic endometrial cells, indicating endometrial cancer.
+   - Postoperatively, she developed left-sided flank pain and oliguria, with a rise in serum creatinine.
+   - Renal ultrasound and urinalysis were normal, but there was hematuria noted.
+
+2. **Evaluate Each Option Against ..."
+121,Diagnosis,False,Unknown,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - Progressive weight loss over 3 months.
+   - Night sweats and low-grade fever.
+   - Generalized pallor.
+   - Bilateral cervical lymphadenopathy.
+   - Non-tender hepatosplenomegaly.
+   - No symptoms of cough, breathlessness, or gastrointestinal issues.
+   - The patient was diagnosed with Hodgkin’s lymphoma.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Epstein-Barr Virus (EBV)**: EBV is associated with infectious mononucleo..."
+122,Diagnosis,False,Unknown,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient is a 28-year-old gravida 1 at 32 weeks gestation.
+   - She had fevers, headaches, myalgias, arthralgias, and a pruritic maculopapular rash early in the first trimester.
+   - These symptoms resolved without treatment.
+   - She recently traveled to Brazil and spent evenings hiking without using mosquito repellent.
+   - Her IgM and IgG titers for toxoplasmosis were negative.
+
+2. **Evaluate Each Option Against the Context:**..."
+123,Diagnosis,False,Unknown,A,"Reasoning: 
+1. **Analyze the patient's symptoms/history:**
+   - The patient presents with sudden onset of a throbbing headache, tinnitus, nausea, and left-sided weakness. These symptoms suggest a possible stroke or other neurological event.
+   - The physical examination reveals increased muscle tone and deep tendon reflexes in the left upper and lower extremities, indicating a potential neurological deficit.
+   - The non-contrast CT of the head is not provided, but the clinical presentation stro..."
+124,Diagnosis,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The obstetrician suspects congenital hypothyroidism, which is often caused by inadequate maternal iodine intake. Congenital hypothyroidism can lead to various developmental issues, including delayed motor skills, hypotonia, and other symptoms related to thyroid hormone deficiency.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Hypotonia**: Central hypotonia is mentioned as accounting for 60 to 80% of all hypotonia in infants, a..."
+125,Diagnosis,False,B,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 33-year-old nurse who has a positive PPD skin test with 17 mm of induration.
+   - She denies any symptoms of active tuberculosis such as cough, shortness of breath, hemoptysis, weight loss, fatigue, fevers, or night sweats.
+   - Her vital signs are within normal limits, and her chest radiograph is unremarkable.
+   
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Isoniazid**: Isoniazid is used for t..."
+126,Diagnosis,False,Unknown,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient is an 81-year-old woman with a history of hypertension, atrial fibrillation, and is on medications including lisinopril, metoprolol, and warfarin.
+   - She fell after experiencing chest palpitations, which startled her while descending stairs.
+   - Physical examination reveals disorientation, a dilated left pupil (6 mm) that is non-reactive to light, and a constricted right pupil (2 mm) that is reactive to light.
+   - Th..."
+127,Mechanism,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient has a monoclonal gammopathy, which suggests a potential malignancy such as multiple myeloma. The bone marrow biopsy shows 6% monoclonal plasma cells, and further analysis indicates that class I major histocompatibility molecules are downregulated in these cells. This suggests a mechanism for immune surveillance and lysis of abnormal cells.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Bone marrow-derived ..."
+128,Diagnosis,False,C,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with progressive muscle weakness over five months, affecting shoulder and hip muscles, and difficulty with activities such as getting up from chairs, climbing stairs, and combing her hair.
+   - She also has difficulty with swallowing solid foods but not liquids, which suggests involvement of the cranial nerves (specifically, the pharyngeal muscles).
+   - There is no mention of pain or other systemic symptoms, wh..."
+129,Diagnosis,False,D,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - Sudden onset of blurry vision and double vision (diplopia).
+   - Nausea, vomiting, and watery diarrhea.
+   - Similar symptoms in a friend who attended the same picnic.
+   - Fixed pupillary dilation and difficulty depressing both eyes during cranial nerve examination.
+   
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Decreased acetylcholine release**
+     - Acetylcholine release is primarily associated with nicoti..."
+130,Diagnosis,False,Unknown,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 4-week-old female with increasing yellowing of the eyes and skin for 2 weeks, and pale stools for the past week.
+   - She was breastfed since birth but switched to formula recently.
+   - There are no focal neurologic findings, and the liver is palpable 2 cm below the right costal margin.
+   - Laboratory tests show elevated total bilirubin (15 mg/dL), direct bilirubin (12.3 mg/dL), alkaline phosphatase (2007 U/L), AS..."
+131,Diagnosis,False,Unknown,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient has a history of total thyroidectomy 3 days ago for papillary thyroid cancer.
+   - He is currently experiencing nausea, abdominal discomfort, diarrhea, and progressive perioral numbness.
+   - He is taking only a multivitamin supplement.
+   - There is a noted hand spasm during blood pressure measurement.
+   - A well-healing surgical wound on the neck is observed.
+
+2. **Evaluate Each Option Against the Context:**
+   - **To..."
+132,Diagnosis,False,Unknown,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 68-year-old woman presenting with left lower quadrant pain that worsens with defecation and is described as 'crampy'.
+   - She has a history of mild constipation for the past few years.
+   - There are no recent changes in weight or urinary symptoms.
+   - Physical examination shows tenderness to palpation in the left lower quadrant.
+   - Laboratory findings include an elevated leukocyte count (16,000/mm³) with a high..."
+133,Diagnosis,False,D,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with erectile dysfunction, deep and burning buttock and hip pain when walking (which is relieved by rest), and weak lower extremity and femoral pulses.
+   - These symptoms are consistent with intermittent claudication, which is a hallmark of vascular claudication. The pain is relieved by rest, and the patient has a history of diabetes, coronary artery disease, and hypertension, all of which are risk factors for ..."
+134,Diagnosis,False,B,A,"Reasoning: The patient has a history of chronic glomerulonephritis due to IgA nephropathy and presents with bone pain. Chronic glomerulonephritis can lead to renal failure, which affects the kidneys' ability to produce and regulate calcitriol (the active form of vitamin D). This can result in a series of metabolic changes in calcium and phosphate levels.
+
+Let's evaluate each option:
+
+A: Increased PTH, decreased calcium, increased phosphate, decreased calcitriol
+- This scenario suggests hyperpara..."
+135,Mechanism,True,C,C,"Reasoning: 
+1. The patient's cells are positive for the cell surface marker CD8, which indicates they are likely cytotoxic T cells. These cells recognize and destroy virus-infected or abnormal cells by binding to MHC class I molecules on the target cell surface.
+2. The researcher identified a protein bound to CD8 that is composed of two chains from an adjacent cell. This suggests that the identified protein is associated with the MHC class I molecule, as it is known to bind peptides from within ..."
+136,Diagnosis,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 61-year-old Caucasian male presenting with chest pain.
+   - The pain worsens with large meals and spicy foods and improves with calcium carbonate.
+   - He denies dyspnea on exertion.
+   - An ECG is normal.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Partially occluded coronary artery**:
+     - Coronary artery disease typically presents with angina that can be relieved by rest or nitroglycerin,..."
+137,Diagnosis,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - Bilateral tearing and foreign body sensation.
+   - Gradual worsening over several weeks.
+   - Occasional palpitations, nervousness, sweating, and heat intolerance.
+   - Bilateral eyelid retraction and inability to fully close eyes.
+   - Limited extraocular motility on upgaze.
+   - No thyromegaly or thyroid nodules.
+   - Low TSH (0.1 μU/mL) and high total T4 (42 μg/dL).
+   - Positive thyroid-stimulating immunoglobulin.
+   - CT scan s..."
+138,Treatment,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 7-year-old boy experiencing nocturnal enuresis (bed-wetting) without any daytime symptoms such as urgency, frequency, or hesitancy. The urine specific gravity is normal, and there are no signs of infection or other pathology. This suggests primary nocturnal enuresis, which is common in children and often resolves spontaneously.
+
+2. **Evaluate Each Option**:
+   - **Option A: Magnetic resonance imaging (MRI) of the spine**..."
+139,Diagnosis,False,B,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient had a history of gastric cancer treated with a subtotal gastrectomy and died in a motor vehicle collision. At autopsy, there was unilateral atrophy of the neurons in the area indicated by the arrow. This suggests a lesion in the spinal cord that affects one side of the body.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Decreased sense of temperature in the ipsilateral arm**
+     - The context mentions th..."
+140,Diagnosis,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 24-year-old pregnant woman at 28 weeks gestation.
+   - She presents with fever, chills, joint pain (knee and ankle), headaches, and neck stiffness.
+   - She had a tick bite on her arm a few days ago.
+   - An erythematous rash is noted on her right arm.
+   - The ultrasound of the fetus is normal.
+   - The patient is being evaluated for Lyme disease based on the tick bite and rash.
+
+2. **Evaluate Each Option Against t..."
+141,Diagnosis,False,Unknown,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient presents with fatigue, weakness, and amenorrhea (absence of menstruation).
+   - She is obese with significant pannus and abdominal striae.
+   - Laboratory findings include hyperglycemia (314 mg/dL), elevated 24-hour urinary cortisol (470 µg), and normal serum cortisol (30 µg/mL) despite high glucose levels.
+   - The 48-hour high-dose dexamethasone suppression trial did not suppress her serum cortisol levels, indicating r..."
+142,Mechanism,True,A,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 67-year-old woman with non-Hodgkin lymphoma who has experienced progressive numbness and tingling in her fingers and toes after receiving vincristine chemotherapy. This presentation is consistent with peripheral neuropathy, a common side effect of certain chemotherapeutic agents, particularly those that target microtubule dynamics.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Inhibition of beta-tubu..."
+143,Diagnosis,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with painless hematuria and bladder wall thickening on CT scan.
+   - Cystoscopy reveals sessile masses with central necrosis.
+   - Biopsy shows moderately differentiated urothelial cells with abundant mitotic figures and nuclear atypia, indicative of transitional cell carcinoma (bladder cancer).
+
+2. **Evaluate Each Option Against the Context**:
+   - **Ionizing Radiation**: Ionizing radiation can cause bladder ca..."
+144,Diagnosis,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 14-year-old girl with short stature (at the 2nd percentile for height).
+   - She has normal birth weight.
+   - She is at Tanner stage 2 for breast development, indicating normal pubertal development.
+   - Pubic and axillary hair is absent, suggesting delayed or incomplete pubertal development.
+   - Bone age is 11 years, which is behind her chronological age (14 years), indicating delayed skeletal maturation.
+
+2. **E..."
+145,Diagnosis,False,Unknown,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 5-year-old boy with facial swelling that started 5 days ago.
+   - He had a recent history of a sore throat 2 weeks ago, which resolved spontaneously.
+   - Physical examination reveals pitting edema in the upper and lower extremities and periorbital edema.
+   - The abdomen is mildly distended.
+   - Laboratory studies show:
+     - Hemoglobin 13.1 g/dL (normal)
+     - Albumin 2.1 g/dL (low, indicating hypoalbuminemia)
+..."
+146,Diagnosis,False,D,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient has confluent scaly patches, plaques, and generalized erythroderma along the torso and lower extremities.
+   - There is also a solid skin lesion with a diameter greater than 1 cm.
+   - The dermatologist suspects a malignancy and orders a biopsy.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Vascular tumor containing spindle cells**
+     - Symptoms of bone sarcomas typically include bone pain, especia..."
+147,Treatment,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient reports feeling stressed, having difficulty relaxing, and being overwhelmed with worries.
+   - She finds it hard to concentrate on her work and reports feeling more tired than usual.
+   - She frequently fights with her husband and uses shopping as a coping mechanism for stress.
+   - She steals small items while shopping and feels immediate relief afterward, followed by feelings of shame and guilt.
+   - These behaviors su..."
+148,Diagnosis,True,B,B,"Reasoning: Let's analyze the patient's symptoms and history step-by-step:
+
+1. **Behavioral Changes**: The patient presents with inappropriate behavior such as using foul language and grabbing people unexpectedly. This suggests a disruption in social behavior and judgment, which aligns with frontotemporal dementia (FTD).
+
+2. **Memory and Cognitive Impairment**: The patient also has worsening memory and trouble caring for himself, indicating cognitive decline. Both Alzheimer's dementia and FTD can..."
+149,Diagnosis,False,Unknown,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is an 11-month-old boy presenting with a rash on his trunk, thin-walled, fluid-filled blisters that rupture easily, and a history of decreased appetite and irritability. The rash is caused by an infection with Staphylococcus aureus, leading to a diagnosis of staphylococcal scalded skin syndrome (SSSS). SSSS is a rare condition caused by exotoxins produced by Staphylococcus aureus that target the skin and mucous membranes, lea..."
+150,Diagnosis,False,Unknown,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient presents with a dry cough, shortness of breath, low-grade fever, and watery diarrhea. These symptoms suggest a respiratory infection possibly complicated by a gastrointestinal issue.
+   - The presence of diffuse crackles on lung examination and patchy infiltrates on chest X-ray indicate a pulmonary infection.
+   - The laboratory findings show a leukocyte count of 16,000/mm³, which is elevated, consistent with an inflamma..."
+151,Diagnosis,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The ultrasound findings describe an intrauterine heteroechoic mass with numerous anechoic spaces, indicating a mixed composition. Additionally, both ovaries are enlarged with multiple thin-walled, septated cysts containing clear content. These findings are characteristic of specific ovarian conditions.
+
+2. **Evaluate Each Option**:
+   - **Chocolate Cysts (Endometriomas)**: These are associated with endometriosis and appear as well-define..."
+152,Diagnosis,False,D,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 75-year-old woman with symptoms of fever, headache, malaise, and dry cough. These symptoms suggest a viral infection. The son, who lives with the patient and her family, has not had any symptoms despite exposure. This indicates that the son may have some form of resistance to the virus.
+
+2. **Evaluate Each Option**:
+   - **Option A: Serum antibodies against hemagglutinin**: Hemagglutinin is a protein found in viruses suc..."
+153,Diagnosis,True,A,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient has a history of major depression with psychotic features.
+   - He had a previous suicide attempt by overdosing on sleeping pills three years ago.
+   - He currently experiences frequent nighttime awakenings and difficulty sleeping through the night.
+   - He lives alone and has access to weapons at a local hunting club.
+   - He currently denies suicidal thoughts or thoughts of self-harm.
+   - He takes sertraline and olanz..."
+154,Diagnosis,False,Unknown,C,"Reasoning: Let's analyze the patient's symptoms and history step-by-step:
+
+1. **Patient's Symptoms and History**:
+   - Generalized rash for 3 days
+   - Severe itching
+   - Fever, headache, and muscle pain
+   - Runny nose 5 days ago (resolved)
+   - Camping trip 1 week ago
+   - Attends daycare
+
+2. **Evaluate Each Option**:
+
+   **A: Measles**
+   - Measles typically presents with a characteristic rash that starts on the face and spreads down the body, often accompanied by high fever, cough, runny no..."
+155,Diagnosis,False,Unknown,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - **Unusual behavior**: The patient exhibits disorganized speech (""The government is following me everywhere"") and non-responsive behavior.
+   - **Temperature**: Elevated body temperature (37.9°C, 100.2°F).
+   - **Heart rate and respiration**: Increased heart rate (115/min) and respiratory rate (24/min).
+   - **Blood pressure**: Elevated blood pressure (160/89 mm Hg).
+   - **Sweating**: Diaphoretic.
+   - **Neurological findings**: Dil..."
+156,Treatment,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient presents with neck stiffness, inability to move the neck, and a flexed and rotated neck posture. This suggests a condition known as torticollis or spasmodic torticollis, which can be caused by muscle spasm or dystonia.
+   - The patient also reports hearing voices and taking an unknown medication four hours ago, indicating a possible overdose or side effect from a psychiatric medication.
+   - The patient's current medicat..."
+157,Diagnosis,True,A,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 13-month-old boy with hepatosplenomegaly.
+   - The blood sample is milky and shows a creamy supernatant layer after refrigeration, indicating high triglyceride levels.
+   - Genetic analysis reveals a mutation in the apolipoprotein C-II gene (APOC2) on chromosome 19.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Acute Pancreatitis (Option A)**: The context mentions that hypertriglyceridemia (with triglycer..."
+158,Treatment,False,D,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient has nausea, abdominal discomfort, and diarrhea for the past 2 days, which are worsening after meals.
+   - He has progressive perioral numbness and upper-extremity muscle cramping for the past 24 hours.
+   - He recently underwent a Roux-en-Y gastric bypass and a total thyroidectomy.
+   - His serum studies show hypomagnesemia (Mg2+ 1.7 mEq/L) and 25-hydroxyvitamin D level of 20 ng/mL (within normal range).
+
+2. **Evaluate E..."
+159,Diagnosis,False,Unknown,B,"Reasoning: 
+
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 9-year-old boy presenting with generalized weakness, increased urination, and increased thirst.
+   - He is in the bottom 10th percentile for height and weight, indicating growth retardation.
+   - He has frequent episodes of constipation since birth.
+   - He prefers watching television and seems less active compared to peers.
+   - He has frequent cravings for salty foods.
+   - His urinalysis shows elevated urinary c..."
+160,Diagnosis,False,D,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 5-year-old boy of African descent with intermittent episodes of jaundice, joint and bone pain since he was 5 months old.
+   - He has sickle-cell disease with splenic infarct, which is a condition where the spleen becomes damaged or removed due to the abnormal shape of red blood cells in sickle-cell disease.
+   - The spleen plays a crucial role in filtering out old or damaged red blood cells and fighting certain type..."
+161,Diagnosis,False,Unknown,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with months of dry mouth and dry eyes, difficulty swallowing food, and tender parotid glands bilaterally. These symptoms are characteristic of Sjögren's syndrome, an autoimmune condition associated with anti-Ro and anti-La autoantibodies.
+   - The patient has a family history of systemic lupus erythematosus (SLE), which is another autoimmune disorder.
+   - The presence of anti-Ro and anti-La autoantibodies is hi..."
+162,Diagnosis,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with fatigue, a progressively worsening cough with hemoptysis, shortness of breath, and dark urine.
+   - He has a history of hypertension, hyperlipidemia, and a 26-year smoking history.
+   - Anti-glomerular basement membrane (anti-GBM) serologies are positive.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Granulomatous inflammation and necrotizing vasculitis**
+     - This condition typically..."
+163,Diagnosis,False,Unknown,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 32-year-old man with HIV infection.
+   - He presents with a 2-week history of progressively worsening headache and vomiting.
+   - On physical examination, there is nuchal rigidity, and Kernig and Brudzinski signs are present.
+   - The lumbar puncture shows an opening pressure of 32 cm H2O, which is elevated.
+   - The pathogen isolated from the cerebrospinal fluid (CSF) can be cultured on Sabouraud agar, indicating a..."
+164,Diagnosis,True,A,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with a burning pain in her upper right back and chest, along with a rash covering multiple clear vesicles and crusty lesions extending from her back to below her right breast.
+   - She does not recall any recent injury and has no prior history of back pain.
+   - She volunteers at an animal shelter three times a week, which could be relevant if the condition is related to infestation.
+   - Her vital signs are wit..."
+165,Treatment,False,A,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient history indicates that the cancer has an asymptomatic period of 4 years before clinical symptoms appear, and the new screening test detects the cancer 2 years earlier than the onset of clinical symptoms. This means that the cancer is being detected 6 years before the median 5-year survival period starts to be measured in the observational case-control study.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: U..."
+166,Diagnosis,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 60-year-old man with shortness of breath that started a year ago and is exacerbated by physical activity.
+   - He has worked in the glass manufacturing industry for 20 years, which suggests potential exposure to silica dust.
+   - Physical examination reveals diminished respiratory sounds on both sides.
+   - Chest radiograph findings include interstitial fibrosis with reticulonodular infiltrate on both sides and eggs..."
+167,Diagnosis,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 43-year-old woman who experienced severe chest pain after the loss of her husband, indicating a potential emotional trigger.
+   - Physical examination reveals an S3 heart sound and rales in the lower right and left lung lobes, suggesting fluid overload or congestion.
+   - The ECG shows no significant findings.
+   - Echocardiography indicates an enlarged left ventricle and left atrium.
+
+2. **Evaluate Each Option Agai..."
+168,Treatment,True,B,B,"Reasoning: 
+1. **Analyze the patient's symptoms/history:**
+   - The patient is unconscious, covered in bloody vomit with small clots and food particles, and smells of alcohol.
+   - There is black tarry stool noted on digital rectal exam (melena).
+   - These findings suggest significant gastrointestinal bleeding, likely from a source such as a peptic ulcer or Mallory-Weiss tear, given the history of alcoholism and the presence of melena.
+
+2. **Evaluate each option against the context:**
+   - **Op..."
+169,Mechanism,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient has hematuria, pitting edema, and proteinuria, indicating a possible glomerulonephritis.
+   - Two weeks ago, she had a sore throat, which suggests an initial infection.
+   - The antistreptolysin O titer is elevated, indicating a recent streptococcal infection.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Antigen-specific IgE binding to mast cells**
+     - This involves the binding of IgE antibodies ..."
+170,Diagnosis,False,D,C,"Reasoning: 
+1. **Analyze the patient's symptoms/history**: The patient presents with altered mental status, hypotension, bradypnea, and hypoxemia. These symptoms suggest a severe underlying condition such as a metabolic disturbance, toxic exposure, or a neurological disorder.
+
+2. **Evaluate each option against the context**:
+   - **Ataxia**: Ataxia refers to a lack of coordination of muscle movements. While it can occur in various conditions, it is not typically associated with the acute present..."
+171,Diagnosis,False,C,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 38-year-old G4P3 with three healthy term deliveries.
+   - The fetus shows signs of IUGR, microcephaly, convex-rounded feet, clenched fists with overlapping fingers, and a VSD.
+   - The AFI is normal (26 cm), suggesting no significant oligohydramnios.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Cleft palate**
+     - Cleft palate involves an opening in the palate, which is not directly related t..."
+172,Treatment,False,B,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is an 83-year-old man who was admitted with urosepsis and is now showing signs of irritability, hallucinations (talking to someone when no one is present), agitation, and restlessness. These symptoms suggest delirium, which is a common complication in hospitalized elderly patients, especially those with underlying infections like urosepsis.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Diphenhydramine**: This is a ..."
+173,Diagnosis,False,Unknown,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient presents with fatigue, weight loss, and muscle aches over the past 2 months. These symptoms could suggest an underlying condition affecting cortisol levels. Additionally, there is no personal or family history of serious illness, and she is not on any medications except a multivitamin. The metyrapone stimulation test ruled out adrenal insufficiency, which means the issue is likely related to cortisol production or sensitivity..."
+174,Diagnosis,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The study compares two groups of patients with GBM: those diagnosed through asymptomatic screening and those diagnosed after developing symptoms. The key finding is that the asymptomatic group had a longer survival time by 6 weeks compared to the symptomatic group. This suggests that the earlier detection through screening may not necessarily lead to a longer actual survival time but rather a longer apparent survival time due to the timi..."
+175,Treatment,True,D,D,"Reasoning: 
+1. **Analyze the patient's symptoms/history:**
+   - The patient was involved in a high-speed motor vehicle collision.
+   - He reports severe chest pain and mild dyspnea.
+   - On arrival, he is confused and unable to provide a history.
+   - Vital signs show a pulse of 93/min, respirations of 28/min, and blood pressure of 91/65 mm Hg.
+   - Oxygen saturation on room air is 88%.
+   - Jugular venous distention is present.
+   - Decreased breath sounds and hyperresonance on percussion are n..."
+176,Mechanism,True,D,D,"Reasoning: 
+1. **Analyze the patient's symptoms/history**: The problem provides information about a PET radiotracer used to evaluate patients with Parkinson’s disease. We need to calculate the specificity of the test, which is defined as the proportion of true negatives among those who tested negative. In other words, it is the number of patients without the disease who tested negative divided by the total number of patients without the disease.
+
+2. **Evaluate each option against the context**:
+..."
+177,Diagnosis,False,Unknown,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - Bilateral wrist and knee pain for 10 years.
+   - Morning stiffness lasting approximately 50 minutes.
+   - Non-tender nodules on the left 1st, 3rd, and 4th distal interphalangeal joints.
+   - Tenderness at the base of both thumbs.
+   - Enlarged, painful knees with crepitus on passive range of motion.
+   - No joint swelling, color changes in digits, dryness of mucous membranes, or constitutional symptoms such as fever and chills.
+
+2. ..."
+178,Diagnosis,False,A,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient experienced left-sided weakness after a chiropractic neck manipulation, and an MRI showed a left C5 hemicord lesion. This suggests a lesion affecting the left side of the spinal cord at the C5 level.
+2. **Evaluate Each Option**:
+   - **Option A: Spastic paralysis at the level of lesion**
+     - The context mentions that spasticity results from the loss of inhibition of motor neurons, causing excessive velocity-dependent muscl..."
+179,Diagnosis,False,Unknown,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with right-sided, dull, throbbing scrotal pain for 12 hours, which improves when the testicle is lifted. This suggests involvement of the testicle itself rather than a mass or varicocele.
+   - He also reports a burning sensation on urination and increased urinary frequency for the past 3 days, indicating possible urethritis.
+   - There is no urethral discharge, which rules out gonorrhea, which typically presents..."
+180,Diagnosis,False,C,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 4-month-old infant with recurrent nosebleeds and multiple bruises without trauma.
+   - There are petechiae and ecchymoses on the skin.
+   - The complete blood count shows hypochromia and poikilocytosis, indicating possible anemia.
+   - The platelet count is elevated (450,000/mm³), which is unusual for a bleeding disorder.
+   - The coagulation tests show normal PT, PTT, and INR, ruling out coagulation factor deficien..."
+181,Diagnosis,False,Unknown,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 6-year-old boy with a 2-day history of dysuria (painful urination) and increased urinary frequency. The urinalysis shows cloudy, red urine. These symptoms suggest a urinary tract infection (UTI), specifically one that might cause hematuria (blood in the urine) and dysuria.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Non-enveloped with linear, single-stranded DNA**: Viruses with these characteristic..."
+182,Diagnosis,False,Unknown,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - **Age and Presentation**: The patient is a 13-year-old boy presenting with a left breast lump under his nipple, which is tender to touch but has no overlying skin changes or discharge.
+   - **Family History**: Family history includes cryptorchidism (which was successfully treated), type I diabetes in his father, and breast fibroadenoma in his mother.
+   - **Physical Examination**: The left breast shows a 3-centimeter round, firm, an..."
+183,Mechanism,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient presents with unilateral leg swelling, redness, and pain, which are classic signs of deep vein thrombosis (DVT). She has a history of a similar episode affecting the opposite leg one year ago, indicating recurrent DVT. Additionally, she has a genetic workup revealing an inherited condition. This suggests a hereditary predisposition to thrombosis.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Elevated seru..."
+184,Diagnosis,False,D,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 78-year-old man with increasing forgetfulness over the past 5 weeks.
+   - He has left the front door open and tap water running, indicating poor judgment and disorientation.
+   - He does not sleep well and wakes up frequently during the night.
+   - He avoids social interaction and rarely makes conversation.
+   - He has a history of hypertension managed with amlodipine.
+   - Mental status examination shows orientatio..."
+185,Treatment,False,A,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is an 18-month-old boy with an abdominal mass, marked pallor, and lethargy. The mass is confirmed to be intermediate-risk neuroblastoma, a type of cancer that typically requires aggressive treatment such as neoadjuvant chemotherapy followed by surgery. The parents have refused chemotherapy due to concerns about side effects and prefer supportive care at home.
+
+2. **Evaluate Each Option**:
+   - **Option A: Help the parents to ..."
+186,Mechanism,False,A,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: In this scenario, we are dealing with a biochemical experiment where a tRNA charged with valine (instead of lysine) is inserted into a cell and used to synthesize a peptide using an mRNA sequence that specifies only lysine codons. The key point here is the recognition and handling of a mischarged tRNA by the ribosome.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A**: ""The ribosome will recognize the mischarged tRNA and..."
+187,Treatment,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is a 65-year-old man with metastatic lung cancer who is experiencing severe, unremitting pain despite escalating doses of oral morphine. He is now experiencing dose-limiting side effects. The key here is the need to reduce his opioid requirement while managing pain.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Propofol**: This is a general anesthetic agent used for induction and maintenance of anesthesia. It does ..."
+188,Diagnosis,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 27-year-old man presenting with left shoulder pain for several weeks.
+   - The pain worsens when sleeping on the left side.
+   - He is an amateur tennis player who practices on weekends.
+   - No trauma during practice sessions.
+   - Severe tenderness localized to the greater tuberosity and biceps tendon tenderness.
+   - Limited range of motion.
+   - X-ray findings show narrowing of the acromiohumeral space, sclerosi..."
+189,Diagnosis,False,D,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 17-year-old woman who has missed her menstrual period for 4 months.
+   - She has a history of regular periods until two months ago.
+   - She denies sexual activity and has a negative urine pregnancy test.
+   - Physical examination reveals enlarged cheeks bilaterally and calluses on the dorsum of her hands.
+   - She reports being very stressed and having recently started binge eating.
+
+2. **Evaluate Each Option Again..."
+190,Treatment,False,C,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient experiences intermittent episodes of chest discomfort, shortness of breath, shakiness, and sweating.
+   - These episodes seem to be related to stressors such as exams or big projects.
+   - The patient is becoming increasingly anxious about having an episode in public places.
+   - The physical exam is unremarkable, suggesting no organic cause for the symptoms.
+
+2. **Evaluate Each Option Against the Context:**
+   - **Cital..."
+191,Diagnosis,False,D,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a stillborn infant with multiple congenital anomalies including a small pelvis, shallow intergluteal cleft, club feet, absence of the sacrum and lumbar vertebrae, and other structural abnormalities.
+   
+2. **Evaluate Each Option Against the Context**:
+   - **Maternal Oligohydramnios**: While oligohydramnios can lead to various fetal anomalies, it does not typically cause the specific combination of skeletal and pelvic..."
+192,Mechanism,True,D,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The study stratifies the results based on CD4+ T-lymphocyte count at the time of diagnosis. It shows that cART adherence significantly predicts DLBCL risk in patients with CD4+ cell counts below 200/mm³ but not in those with counts above 200/mm³. This indicates a different relationship between cART adherence and DLBCL risk depending on the CD4+ cell count category.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Poor Generalizab..."
+193,Mechanism,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The question describes a scenario where Th1 cells secrete a factor that stimulates phagosome-lysosome fusion, activates macrophages to produce mediators like nitric oxide (NO), and ultimately leads to the formation of a tubercle during a Mycobacterium tuberculosis infection. This indicates a strong immune response involving Th1 cells and macrophages.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: IL-4**: IL-4 is a Th2..."
+194,Diagnosis,True,C,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient presents with abdominal pain and constipation, increasing irritability, limited vocabulary, inability to name body parts or count, and a peripheral blood smear showing small, pale red blood cells with basophilic stippling. These findings suggest a hematological disorder affecting red blood cell production.
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Conversion of ferrous iron to ferric iron**
+     - This..."
+195,Diagnosis,True,C,C,"Reasoning: 
+1. **Analyze the patient's symptoms/history**: The study design involves retrospective surveys of mothers' folic acid consumption during pregnancy. The primary concern here is the potential for errors in the recall of past events, specifically the mothers' consumption of folic acid during pregnancy.
+
+2. **Evaluate each option**:
+   - **Interviewer bias**: This occurs when the interviewer influences the responses of the interviewee. However, the context does not mention any interactio..."
+196,Diagnosis,False,B,A,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**: The patient is eliminating 0.5 mg of the drug every 4 hours. This suggests a relatively rapid clearance rate, which is characteristic of drugs that are primarily eliminated via the kidneys rather than through hepatic metabolism.
+
+2. **Evaluate Each Option Against the Context**:
+   - **Warfarin**: Warfarin is a vitamin K antagonist that is primarily eliminated via hepatic metabolism. Its half-life can range from 20 to 72 hours, indicating..."
+197,Diagnosis,True,B,B,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient presents with weakness and weight loss, which could be indicative of various conditions, including chronic illness or malnutrition.
+   - She denies any urinary issues, which rules out obstructive uropathy and renal cell carcinoma, as these conditions typically present with urinary symptoms.
+   - Her hemoglobin and hematocrit levels are low, suggesting anemia, which can be a sign of chronic kidney disease (CKD) or other c..."
+198,Treatment,False,C,D,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History:**
+   - The patient is a 28-year-old woman who has been unsuccessfully trying to conceive for 2 years.
+   - She has had prior abdominal surgery.
+   - She has a family history of endocrine abnormalities.
+   - Treatment is administered intermittently one week before her normal menstrual cycle.
+
+2. **Evaluate Each Option Against the Context:**
+   - **Diabetes (Option A):** Diabetes is a metabolic disorder characterized by high blood sugar leve..."
+199,Diagnosis,False,D,C,"Reasoning: 
+1. **Analyze the Patient's Symptoms/History**:
+   - The patient is a 2-year-old girl with recurrent urinary tract infections (UTIs).
+   - Renal ultrasound shows bilateral dilation of the renal pelvis.
+   - Voiding cystourethrography shows retrograde flow of contrast into the ureters during micturition.
+   
+2. **Evaluate Each Option Against the Context**:
+   - **Option A: Glomerular crescents with macrophages**
+     - This finding is more commonly associated with rapidly progressive g..."
