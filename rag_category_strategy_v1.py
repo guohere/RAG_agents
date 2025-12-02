@@ -9,7 +9,7 @@ from tqdm import tqdm
 # ==========================================
 # 1. CONFIGURATION
 # ==========================================
-NUM_SAMPLES_TO_TEST = 200
+NUM_SAMPLES_TO_TEST = 1000
 OUTPUT_FILE = "medqa_optimized_results.csv"
 MODEL_ID = "Qwen/Qwen2.5-7B-Instruct"
 
@@ -128,24 +128,24 @@ def solve_question_cot(question, options, evidence, category):
     messages = [
         {"role": "system", "content": f"{sys_role} Answer the USMLE question. Use the provided Context."},
         {"role": "user", "content": f"""
-Context from Medical Library:
-{evidence}
+            Context from Medical Library:
+            {evidence}
 
-Question:
-{question}
+            Question:
+            {question}
 
-Options:
-{options_fmt}
+            Options:
+            {options_fmt}
 
-Instructions:
-1. Analyze the patient's symptoms/history.
-2. Evaluate each option against the context.
-3. Eliminate incorrect options step-by-step.
-4. State the final answer clearly at the end.
+            Instructions:
+            1. Analyze the patient's symptoms/history.
+            2. Evaluate each option against the context.
+            3. Eliminate incorrect options step-by-step.
+            4. State the final answer clearly at the end.
 
-Format your response exactly like this:
-Reasoning: [Your step-by-step logic]
-Answer: [Option Letter]"""}
+            Format your response exactly like this:
+            Reasoning: [Your step-by-step logic]
+            Answer: [Option Letter]"""}
     ]
     
     # Generate
