@@ -5,3 +5,7 @@ i am thinking to get a separate components for each step, so that i can reuse or
 specific component without influence the whole pipeline.
 
 ## MedQA-4-options
+
+Key parameters
+Top K
+TopP
