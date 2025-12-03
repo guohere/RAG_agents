@@ -18,8 +18,8 @@ warnings.filterwarnings("ignore", category=UserWarning, module='wikipedia')
 # ==========================================
 # 1. CONFIGURATION
 # ==========================================
-NUM_SAMPLES_TO_TEST = 100
-OUTPUT_FILE = "1000Q_v2_fewshot.csv"
+NUM_SAMPLES_TO_TEST = 1000
+OUTPUT_FILE = "fewshot_v2_1000Q.csv"
 MODEL_ID = "Qwen/Qwen2.5-7B-Instruct"
 EMBEDDING_ID = "all-MiniLM-L6-v2"
 
@@ -112,7 +112,7 @@ def get_best_wikipedia_context(search_term, options, question_text):
                  section = page.section("Mechanism of action")
                  if section: content = section
 
-            final_context.append(f"[{page.title}]: {content[:800]}") 
+            final_context.append(f"[{page.title}]: {content[:500]}") 
         except:
             continue
             
@@ -146,6 +146,7 @@ Instructions:
 1. Evaluate each option against the symptoms/context.
 2. Eliminate incorrect options.
 3. Conclude with the correct option.
+4. limit the reasoning within 200 tokens.
 
 Format:
 Reasoning: [Your step-by-step logic]
