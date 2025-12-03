@@ -1,0 +1,87 @@
+id,category,is_correct,prediction,correct_answer,reasoning
+0,Treatment,False,A,B,"Reasoning: The resident should disclose the error to the patient and include it in the operative report. While the attending physician may believe the patient will be fine and not need to know, it is ethically and professionally important to ensure transparency and accurate documentation. Omitting such information could lead to potential legal issues and undermine trust.
+
+Answer: A"
+1,Mechanism,True,D,D,"Reasoning: The patient's symptoms of a 2-day history of a ringing sensation in the ear (tinnitus) and sensorineural hearing loss (SNHL) after receiving chemotherapy suggest ototoxicity. Neoadjuvant chemotherapy often includes platinum-based drugs like cisplatin, which are known to cause ototoxicity by damaging cochlear hair cells.
+
+- Option A (Inhibition of proteasome): This action is more commonly associated with certain cancer drugs but not typically linked to ototoxicity.
+- Option B (Hyperstabilization of microtubules): This action is characteristic of taxanes, which are not commonly associated with ototoxicity.
+- Option C (Generation of free radicals): Some chemotherapeutic agents generate free radicals, but this is not a primary mechanism for ototoxicity.
+- Option D (Cross-linking of DNA): This action is typical of alkylating agents like cisplatin, which can cause ototoxicity by damaging cochlear hair cells.
+
+Answer: D"
+2,Diagnosis,True,B,B,"**Reasoning:**  
+1. **Symptoms Analysis:** The patient has decreased urinary output, malaise, and mottled, reticulated purplish discoloration of the feet. These symptoms suggest a possible vascular issue leading to renal impairment.
+2. **Elimination of Wrong Options:**
+   - **Renal Papillary Necrosis (A):** This condition is typically associated with impaired blood supply and ischemic necrosis, but the presence of mottled, reticulated purplish discoloration of the feet suggests a more systemic vascular issue rather than localized renal papillary involvement.
+   - **Eosinophilic Granulomatosis with Polyangiitis (C):** While this condition involves vasculitis and can affect multiple organs, the specific presentation of mottled skin discoloration and the rapid onset of renal dysfunction are not typical features of EGPA.
+   - **Polyarteritis Nodosa (D):** This condition involves medium-sized muscular arteries and can present with multisystem involvement, including skin changes and renal impairment. However, the specific finding of mottled skin discoloration and the rapid onset of renal dysfunction are more indicative of a more acute process.
+3. **Best Answer Selection:**
+   - **Cholesterol Embolization (B):** This condition involves the sudden occlusion of small to medium-sized arteries by cholesterol crystals, leading to acute renal failure and skin changes such as mottling and purpura. The combination of recent cardiac catheterization, decreased urinary output, and mottled skin discoloration strongly suggests cholesterol embolization.
+
+**Answer:** B"
+3,Diagnosis,True,D,D,"Reasoning: 
+1. **Analyze Symptoms Briefly**: The patient presents with fever, chills, left lower quadrant pain, and signs of sepsis (hypotension). The pelvic examination findings suggest possible pelvic inflammatory disease or abscess, and the blood culture results will likely indicate a pathogen causing these symptoms.
+
+2. **Eliminate Wrong Options**:
+   - **Option A**: Coagulase-positive, gram-positive cocci forming mauve-colored colonies on methicillin-containing agar. This describes Staphylococcus aureus, which does not typically cause the described symptoms and would not form mauve-colored colonies on methicillin-containing agar.
+   - **Option C**: Spore-forming, gram-positive bacilli forming yellow colonies on casein agar. This describes Bacillus species, which do not typically cause the described symptoms and would not form yellow colonies on casein agar.
+   - **Option B**: Encapsulated, gram-negative coccobacilli forming grey-colored colonies on charcoal blood agar. This describes encapsulated bacteria like Streptococcus pneumoniae, which does not typically cause the described symptoms and would not form grey-colored colonies on charcoal blood agar.
+
+3. **Select the Best Answer**:
+   - **Option D**: Lactose-fermenting, gram-negative rods forming pink colonies on MacConkey agar. This describes Escherichia coli, which can cause urinary tract infections, sepsis, and pelvic inflammatory disease, fitting the clinical presentation.
+
+Answer: D"
+4,Treatment,True,B,B,"Reasoning: The patient presents with itchy, watery eyes, bilateral conjunctival injection, and watery discharge, along with a history of similar episodes in spring and a previous history of allergic conjunctivitis. These symptoms are consistent with allergic conjunctivitis. The warm compress option (C) is not indicated for allergic conjunctivitis. Erythromycin ointment (A) is used for bacterial infections, which do not apply here. Fluorometholone eye drops (D) are corticosteroids, which are reserved for more severe cases of inflammation and should be monitored by an optometrist. Ketotifen eye drops (B) are antihistamines and mast cell stabilizers, which are safe and effective for allergic conjunctivitis.
+
+Answer: B"
+5,Treatment,False,C,D,"Reasoning: The patient presents with chest pain radiating to the epigastric area, diaphoresis, and marked distress, along with a history of hypertension and recent cocaine abuse. These symptoms are highly suggestive of acute coronary syndrome (ACS). The first step in managing ACS is to stabilize the patient and relieve symptoms, which often involves administration of analgesics and antiplatelet agents.
+
+Given the patient's presentation, the primary goal is to quickly alleviate the chest pain and stabilize the patient. Among the options provided:
+
+- **Diltiazem** and **Labetalol** are calcium channel blockers and can be used to manage hypertension and chest pain in ACS, but they do not provide immediate relief of pain.
+- **Propranolol** is a beta-blocker that can help manage chest pain and reduce myocardial oxygen demand, but it does not provide immediate relief like nitroglycerin.
+- **Reassurance and continuous monitoring** alone are insufficient to manage the acute symptoms of suspected ACS.
+
+**Nitroglycerin**, although not listed as an option, is the standard initial treatment for relieving chest pain in ACS. Since nitroglycerin is not an option, the next best agent that can rapidly relieve symptoms is **propranolol** due to its rapid onset of action in reducing myocardial oxygen demand.
+
+Answer: C"
+6,Diagnosis,False,A,C,"Reasoning: The patient presents with right flank pain, abdominal tenderness, and right flank tenderness. These symptoms, along with dilation of the right ureter and renal pelvis on ultrasound, suggest obstruction of the urinary tract. 
+
+- **Benign prostatic hyperplasia (BPH)** is more commonly associated with lower urinary tract symptoms such as frequent urination, weak stream, and difficulty starting urination. It is less likely to cause flank pain and ureteral dilation.
+
+- **Common iliac artery aneurysm** typically presents with abdominal or flank pain but does not directly cause ureteral dilation or renal pelvis dilation.
+
+- **Urethral stricture** affects the urethra and would not cause dilation of the ureter or renal pelvis.
+
+- **Renal artery stenosis (RAS)** can lead to renovascular hypertension and, in severe cases, can cause renal ischemia leading to renal failure and ureteral dilation due to decreased perfusion to the kidney.
+
+Given the presence of renal pelvis dilation and the patient’s history of peripheral artery disease (which could indicate atherosclerosis), **renal artery stenosis** is the most likely underlying cause.
+
+Answer: A"
+7,Treatment,True,C,C,"Reasoning: The patient presents with acute chest pain, ST-segment depressions on ECG, and elevated troponin, indicating acute coronary syndrome (ACS). He undergoes percutaneous transluminal coronary angioplasty, which is a procedure typically performed in ACS patients to restore blood flow to the heart. Post-procedure, dual antiplatelet therapy is recommended to prevent further thrombosis.
+
+- **Nifedipine** (Option A) is a calcium channel blocker used to manage angina and hypertension but is not typically used for dual antiplatelet therapy post-PCI.
+- **Spironolactone** (Option D) is a diuretic used for fluid retention and heart failure, not for antiplatelet therapy.
+- **Enoxaparin** (Option B) is an anticoagulant used to prevent clot formation but is not part of dual antiplatelet therapy.
+- **Clopidogrel** (Option C) is an antiplatelet medication used in combination with aspirin for dual antiplatelet therapy after PCI to prevent thrombosis.
+
+Answer: C"
+8,Treatment,False,D,B,"Reasoning: The copper IUD is generally considered safe for most women, but certain medical conditions make its placement contraindicated. 
+- Option A (history of stroke or venous thromboembolism) does not directly contraindicate copper IUD placement; hormonal IUDs might be more contraindicated due to thromboembolic risk.
+- Option C (past medical history of breast cancer) does not inherently contraindicate copper IUD placement unless the cancer is related to hormone sensitivity.
+- Option D (known liver neoplasm) is a significant concern because copper IUDs can increase copper levels in the body, which could potentially affect liver function in patients with pre-existing liver issues.
+
+Answer: D"
+9,Diagnosis,False,D,A,"Reasoning: The patient presents with concerns about the appearance of her nails, which suggests a cosmetic issue related to the nails. Given the context provided, onychomycosis is the most relevant condition, characterized by changes in nail color, thickness, and separation from the nail bed.
+
+- Option A (Silvery plaques on extensor surfaces) is not related to nail changes and is more indicative of psoriasis.
+- Option B (Flesh-colored papules in the lumbosacral region) is unrelated to nail conditions.
+- Option C (Erosions of the dental enamel) is not associated with nail changes.
+- Option D (Holosystolic murmur at the left lower sternal border) is a cardiac finding and not related to nail conditions.
+
+Given the context and the patient's presentation, the most likely additional finding consistent with onychomycosis is none of the above options directly listed. However, if we must choose the closest related option, it would be a finding that could indicate a systemic condition that might predispose to onychomycosis, such as peripheral vascular disease (which is a risk factor).
+
+Answer: None of the above options directly relate to onychomycosis. However, if forced to choose, the closest related option would be:
+
+Answer: D"
