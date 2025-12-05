@@ -1,6 +1,6 @@
+
 ## current training
-GPU 32 - embedder 1000q
-![embedder 1000q](image.png)
+rag_full wiki (try to use 5 pages of relevant infomation)
 
 ## Next training
 * embedder finetuning on train split - pritamdeka/S-PubMedBert-MS-MARCO
@@ -9,3 +9,12 @@ GPU 32 - embedder 1000q
 to reduce GPU cost
 
 * integrate the self-consistency to pipeline(majority voting)
+
+## history 
+* GPU 32 embedder 1000q
+![embedder 1000q](image.png)
+
+* GPU 32 - 30q with source tracking
+analysis - not fully using the 5 pages of Wiki, mostly using 1 or 2 pages.
+
+improvement - try to integrate the options in search query, try to use 5 pages of input, as much useful info as possible.
