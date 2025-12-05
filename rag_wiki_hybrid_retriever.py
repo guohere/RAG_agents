@@ -1,5 +1,6 @@
 import torch
 import pandas as pd
+from rank_bm25 import BM25Okapi
 import wikipedia
 import re
 import ast
@@ -7,8 +8,10 @@ import gc
 import warnings
 from datasets import load_dataset
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
-#from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer
 from tqdm import tqdm
+import numpy as np
+from sentence_transformers import util
 
 # Import your helper module
 #from fewshot import FewShotEngine 
@@ -18,8 +21,8 @@ warnings.filterwarnings("ignore", category=UserWarning, module='wikipedia')
 # ==========================================
 # 1. CONFIGURATION
 # ==========================================
-NUM_SAMPLES_TO_TEST = 30  # Running full set?
-OUTPUT_FILE = "med_fullwiki_30q.csv" # New filename
+NUM_SAMPLES_TO_TEST = 1000  # Running full set?
+OUTPUT_FILE = "med_hybrid_retriever_1000q.csv" # New filename
 MODEL_ID = "Qwen/Qwen2.5-7B-Instruct"
 EMBEDDING_ID = "pritamdeka/S-PubMedBert-MS-MARCO"
 
@@ -42,7 +45,7 @@ model = AutoModelForCausalLM.from_pretrained(MODEL_ID, quantization_config=bnb_c
 model.eval()
 
 #print(f"Loading {EMBEDDING_ID} on CPU...")
-#embedder = SentenceTransformer(EMBEDDING_ID, device="cpu")
+embedder = SentenceTransformer(EMBEDDING_ID, device="cpu")
 
 print("Loading Dataset & Building Index...")
 dataset = load_dataset("GBaker/MedQA-USMLE-4-options")
@@ -68,6 +71,118 @@ def generate_text(messages, max_new_tokens):
 # 3. IMPROVED HELPERS
 # ==========================================
 
+# --- Helper: Normalization for Fusion ---
+def normalize_scores(scores):
+    """Normalizes an array of scores to 0-1 range."""
+    if len(scores) == 0:
+        return scores
+    if np.min(scores) == np.max(scores):
+        return np.ones_like(scores) # Avoid division by zero
+    return (scores - np.min(scores)) / (np.max(scores) - np.min(scores))
+
+def get_hybrid_reranked_context(question, options, category, embedder, top_k=5):
+    """
+    1. PLANS: Uses LLM to decide what to search.
+    2. DOWNLOADS: Fetches 5 Wikipedia pages.
+    3. CHUNKS: Splits pages into small segments.
+    4. RERANKS: Scores chunks using Hybrid Search (Vector + BM25).
+    """
+    
+    # 1. Get the Smart Search Plan (Reusing your function)
+    # Ensure get_smart_search_plan is defined in your script!
+    search_queries = get_smart_search_plan(question, options, category)
+    
+    raw_pages_text = []
+    source_tracker = []
+    unique_titles = set()
+
+    # 2. Download Content
+    print(f"   📥 Downloading {len(search_queries)} pages based on plan: {search_queries}")
+    
+    for term in search_queries:
+        if len(unique_titles) >= 5: break # Enforce 5 page limit
+        try:
+            results = wikipedia.search(term, results=1)
+            if not results: continue
+            
+            title = results[0]
+            if title in unique_titles: continue
+            
+            # Get full page content
+            page = wikipedia.page(title, auto_suggest=False)
+            unique_titles.add(title)
+            
+            # Save format: "Title | Content"
+            raw_pages_text.append(f"{title} | {page.content}")
+            source_tracker.append(f"{title} ({page.url})")
+            
+        except Exception as e:
+            continue
+
+    if not raw_pages_text:
+        return "No Wikipedia content found.", "No Sources", str(search_queries)
+
+    # 3. Chunking (Split into ~500 char windows with overlap)
+    all_chunks = []
+    chunk_size = 500
+    overlap = 150
+    
+    for text in raw_pages_text:
+        for i in range(0, len(text), chunk_size - overlap):
+            chunk = text[i:i + chunk_size]
+            if len(chunk) > 100: # Filter out tiny garbage chunks
+                all_chunks.append(chunk)
+
+    if not all_chunks:
+        return "No valid text chunks extracted.", "No Sources", str(search_queries)
+
+    # 4. Hybrid Reranking
+    
+    # A. Prepare Query (Question + Options for context)
+    # Using options helps differentiate between answers
+    query_text = f"{question} {' '.join(options.values())}"
+    
+    # B. Semantic Search (Vector)
+    # Encode all chunks and the query
+    chunk_embeddings = embedder.encode(all_chunks, convert_to_tensor=True)
+    query_embedding = embedder.encode(query_text, convert_to_tensor=True)
+    
+    # Calculate Cosine Similarity
+    # result is a tensor, convert to numpy
+    sem_scores = util.cos_sim(query_embedding, chunk_embeddings)[0].cpu().numpy()
+
+    # C. Keyword Search (BM25)
+    # Tokenize (simple splitting is usually fine for English medical terms)
+    tokenized_chunks = [doc.lower().split() for doc in all_chunks]
+    tokenized_query = query_text.lower().split()
+    
+    bm25 = BM25Okapi(tokenized_chunks)
+    bm25_scores = np.array(bm25.get_scores(tokenized_query))
+    
+    # D. Normalization & Fusion
+    # We must normalize because Cosine is (-1, 1) and BM25 is (0, inf)
+    sem_norm = normalize_scores(sem_scores)
+    bm25_norm = normalize_scores(bm25_scores)
+    
+    # Alpha determines weight. 0.5 = Equal. 
+    # For Medical, 0.4 Vector / 0.6 BM25 is often good to catch exact drug names.
+    alpha = 0.5 
+    hybrid_scores = (alpha * sem_norm) + ((1 - alpha) * bm25_norm)
+    
+    # E. Selection
+    # Get indices of the top_k highest scores
+    best_indices = np.argsort(hybrid_scores)[::-1][:top_k]
+    
+    # Retrieve the actual text chunks
+    top_chunks = [all_chunks[i] for i in best_indices]
+    
+    # 5. Final Formatting
+    final_context = "\n...\n".join(top_chunks)
+    source_str = " | ".join(source_tracker)
+    plan_str = str(search_queries)
+    
+    return final_context, source_str, plan_str
+
 def classify_question(question):
     prompt = [
         {"role": "system", "content": "Classify as: Diagnosis, Treatment, or Mechanism. Output ONE word."},
@@ -87,8 +202,7 @@ def generate_search_query(question, category):
     return generate_text(prompt, max_new_tokens=20).strip().replace('"', '')
 
 # --- IMPROVED: Context Retriever (Now tracks sources!) ---
-def get_best_wikipedia_context(question, options, category):
-    category = category
+def get_best_wikipedia_context(question, options, category, embedder):
     search_queries = get_smart_search_plan(question, options, category)
     
     unique_pages = {} 
@@ -128,53 +242,6 @@ def get_best_wikipedia_context(question, options, category):
     
     return full_context, source_str, plan_str
 
-def get_wikipedia_context(search_term, options, question_text):
-    candidates = []
-    
-    # 1. Search the generated term
-    try:
-        results = wikipedia.search(search_term, results=1)
-        if results: candidates.append(results[0])
-    except: pass
-
-    # 2. ALSO search the Option A/B/C/D terms (Critical for differential diagnosis)
-    # If the main search fails, these often save the day.
-    for opt in list(options.values())[:2]: # Limit to first 2 options to save time/noise
-        candidates.append(opt)
-    
-    candidates = list(set(candidates))
-    final_context = []
-    source_tracker = [] # <--- NEW: List to track sources
-    
-    for i, page_title in enumerate(candidates):
-        if i >= 3: break 
-        try:
-            page = wikipedia.page(page_title, auto_suggest=False)
-            content = page.summary
-            
-            # Context Filtering
-            if "treatment" in question_text.lower():
-                section = page.section("Treatment") or page.section("Medical uses")
-                if section: content = section
-            elif "mechanism" in question_text.lower():
-                 section = page.section("Mechanism of action")
-                 if section: content = section
-
-            # Append Text
-            snippet = f"SOURCE [{page.title}]: {content[:600]}"
-            final_context.append(snippet)
-            
-            # Append Tracker
-            source_tracker.append(f"{page.title} ({page.url})")
-
-        except:
-            continue
-            
-    # Return BOTH the text block AND the list of sources
-    full_text = "\n\n".join(final_context)
-    source_str = " | ".join(source_tracker)
-    
-    return full_text, source_str
 
 # ==========================================
 # 4. SOLVER (Enhanced Prompt)
@@ -300,7 +367,7 @@ for i, sample in tqdm(enumerate(subset), total=NUM_SAMPLES_TO_TEST):
         
         # 3. Retrieve Context (TRACKING ADDED)
         #query = generate_search_query(question, cat)
-        context_text, source_refs, search_plan = get_best_wikipedia_context(question, options, cat)
+        context_text, source_refs, search_plan = get_hybrid_reranked_context(question, options, cat, embedder, top_k=5)
         
         # 4. Solve
         response = solve_question_cot(question, options, context_text, examples=None)
