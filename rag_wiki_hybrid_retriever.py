@@ -376,14 +376,14 @@ for i, sample in tqdm(enumerate(subset), total=NUM_SAMPLES_TO_TEST):
         # 5. Save Data (New Columns Added)
         results.append({
             "id": i,
-            "question": question,
-            "options": options,
             "category": cat,
             "is_correct": (pred == correct_key),
             "prediction": pred,
             "correct_answer": correct_key,
             #"search_query": query,          # <--- NEW
             "search_plan": search_plan,
+            "question": question,
+            "options": options,
             "retrieved_text": context_text[:2000],
             "source_references": source_refs, # <--- NEW
             "reasoning": response,
