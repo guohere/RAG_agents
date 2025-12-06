@@ -35,7 +35,7 @@ class RAGEvaluator:
             outputs = self.model.generate(
                 **inputs, 
                 max_new_tokens=150, 
-                temperature=0.0  # Greedy decoding for consistent grading
+                temperature=0.1  # Greedy decoding for consistent grading
             )
         return self.tokenizer.decode(outputs[0], skip_special_tokens=True).split("assistant\n")[-1].strip()
 
