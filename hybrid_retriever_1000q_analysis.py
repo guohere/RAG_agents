@@ -8,8 +8,9 @@ from tqdm import tqdm
 # 1. SETUP
 # ==========================================
 RESULTS_FILE = "med_hybrid_retriever_1000q.csv" # Update to your actual filename
-EMBEDDING_MODEL = "pritamdeka/S-PubMedBert-MS-MARCO" # Fast & effective for similarity checking
-
+#EMBEDDING_MODEL = "pritamdeka/S-PubMedBert-MS-MARCO" # Fast & effective for similarity checking
+EMBEDDING_MODEL = "all-MiniLM-L6-v2" # Fast & effective for similarity checking
+# all-MiniLM-L6-v2
 print(f"Loading Results from {RESULTS_FILE}...")
 df = pd.read_csv(RESULTS_FILE)
 
