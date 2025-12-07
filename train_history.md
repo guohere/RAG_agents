@@ -1,5 +1,8 @@
 
 ## current training
+* evaluate the search plan and context relevant for further improvement.
+
+* retrieve more pages from search plan, and rerank for more relevant pages. 
 
 ## Next training
 * not using the train split yet.

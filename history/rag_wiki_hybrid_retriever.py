@@ -201,48 +201,6 @@ def generate_search_query(question, category):
     # Increased tokens to allow "Renal Papillary Necrosis" (3 words) instead of just "Necrosis"
     return generate_text(prompt, max_new_tokens=20).strip().replace('"', '')
 
-# --- IMPROVED: Context Retriever (Now tracks sources!) ---
-def get_best_wikipedia_context(question, options, category, embedder):
-    search_queries = get_smart_search_plan(question, options, category)
-    
-    unique_pages = {} 
-    source_tracker = []
-    for term in search_queries:
-        if len(unique_pages) >= 5: break
-
-        try:
-            # Search Wiki
-            results = wikipedia.search(term, results=1)
-            if not results: continue
-            
-            page_title = results[0]
-            if page_title in unique_pages: continue
-            
-            page = wikipedia.page(page_title, auto_suggest=False)
-            
-            # Smart Content Extraction (Summary + Relevant Section)
-            content = f"SOURCE [{page.title}]: {page.summary[:800]}"
-            # If the search query implies a specific need, try to fetch that section
-            # (Simple heuristic: if query has 'treatment', fetch treatment)
-            if "treatment" in term.lower() or "management" in term.lower():
-                section = page.section("Treatment") or page.section("Management")
-                if section: content += f"\n[Treatment Detail]: {section[:500]}"
-            
-            unique_pages[page_title] = content
-            source_tracker.append(f"{page.title} ({page.url})")
-            
-        except:
-            continue
-
-    full_context = "\n\n".join(unique_pages.values())
-    source_str = " | ".join(source_tracker)
-    
-    # Save the plan so you can analyze it in the CSV later
-    plan_str = str(search_queries) 
-    
-    return full_context, source_str, plan_str
-
-
 # ==========================================
 # 4. SOLVER (Enhanced Prompt)
 # ==========================================
