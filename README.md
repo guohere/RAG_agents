@@ -3,8 +3,6 @@ RAG agent for MedQA 4 options dataset, trying to get as much correct answer as p
 
 
 ## RAG pipeline
-i am thinking to get a separate components for each step, so that i can reuse or optimize the one 
-specific component without influence the whole pipeline.
 
 ## dataset
 MedQA-4-options: 
